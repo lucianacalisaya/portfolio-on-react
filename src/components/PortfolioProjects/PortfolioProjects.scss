@@ -1,0 +1,25 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    > :nth-child(2n) {
+        background-color: #232323;
+    }
+    > :nth-child(2n+1) {
+        flex-direction: row-reverse;
+        h2 {
+            transform: rotate(90deg);
+        }
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .projects {
+        > :nth-child(2n+1) {
+            flex-direction: column;
+            h2 {
+                transform: unset;
+            }
+        }
+    }
+}

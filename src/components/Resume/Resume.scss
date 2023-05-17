@@ -1,0 +1,157 @@
+.resume-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding: 0 6rem;
+}
+
+
+/*
+    .social-media{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+        a {
+            font-size: 20px;
+            color: #FFFFFF;
+            i {
+                background-color: unset;
+            }
+        }
+    }*/
+
+
+
+
+.width-limit {
+    width: 100%;
+    max-width: 815.7px;
+}
+
+.quick-info {
+    display: flex;
+    justify-content: center;
+    margin: 10px 5%;
+    width: 100%;
+    &__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #bc8f8f;
+    padding: 10px;
+    border-radius: 20px;
+    }
+    &__imagebox {
+        width: 15%;
+        &--image {
+            width: 100%;
+            border-radius: 100%;
+            box-shadow: 0px 0px 4px 4px #0000001c
+        }
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    &__social-media{
+        width: 100%;
+        list-style: none;
+        &--link {
+            font-size: 14px;
+            text-decoration: none;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            i {
+                font-size: 16px;
+                color: #ffffff85;
+            }
+        }
+    }
+    &__download {
+        color: #FFFFFF;
+        background-color: #141414;
+        border-radius:  20px;
+        font-family: 'Montserrat', sans-serif;
+        width: fit-content;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .fa-download {
+        font-size: 14px;
+    }
+}
+
+.cv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__h3 {
+        color: #bc8f8f;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+    }
+    &__h4 {
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 1px;
+        &--skill {
+            width: 36%;
+        }
+    }    
+    &__padding {
+        padding-top: 10px;    
+    }
+    &__list {
+        font-family: 'Montserrat', sans-serif;
+        list-style: none;
+        &--skills {
+            width: 180px;
+            li {
+                padding-top: 2px;
+            }
+        }
+    }
+    &__highlight {
+        background-color: #bc8f8f;
+        padding: 2px;
+        border-radius: 15px;
+    }
+    &__background {
+        width: 45%;
+    }
+    &__fieldset {
+        margin-bottom: 5px;
+        &--link {
+            text-decoration: none;
+            color: #bc8f8f;        
+        }
+        li {
+            padding-top: 2px;
+        }
+    }
+    &__date {
+        color: gray;
+        font-size: 12px;
+    }
+    &__skills {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    &__skillbox {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;    
+    }
+    &__about {
+        padding-top: 10px;
+        &--text {
+            line-height: 22px;
+        }
+    }
+}
+

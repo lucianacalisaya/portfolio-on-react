@@ -1,0 +1,51 @@
+.hamburger {
+    width: 100%;
+    &__button {
+        background-color: unset;
+        border: unset;
+        cursor: pointer;
+        &:hover span{
+            background: #fbdfe9;
+        }
+    }
+    &__lines {
+        margin: 11px 0 11px 16px;        
+        height: 26px;
+        width: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .line {
+          display: block;
+          height: 4px;
+          width: 100%;
+          border-radius: 10px;
+          background: #f7bcd0;
+        }
+        .line1 {
+          transform-origin: 0% 0%;
+          transition: transform 0.4s ease-in-out;
+        }
+        .line2 {
+          transition: transform 0.2s ease-in-out;
+        }
+        .line3 {
+          transform-origin: 0% 100%;
+          transition: transform 0.4s ease-in-out;
+        }
+    }
+}
+@media only screen and (min-width: 701px) {
+  .hamburger {
+      &__button {
+          display: none;
+      }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .hamburger {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+  }
+}

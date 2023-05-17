@@ -1,0 +1,83 @@
+.home {
+    display: flex;
+    margin: 3rem;
+    &__introduction {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__title {
+        margin-top: 1rem;
+    }
+    &__subtitle {
+        margin-bottom: 1rem;
+        color: #d2b7e0e6;
+        text-shadow:
+          0 0 5px #d2b7e0,
+          0 0 10px #d2b7e0,
+          0 0 20px #d2b7e0,
+          0 0 40px #d2b7e0,
+          0 0 80px #d2b7e0;
+          animation: flicker 1.5s infinite alternate;     
+        }
+        &__button {
+            margin: 3rem 0;
+            &--link {
+                border-radius: 4px;
+                background-color: #d2b7e0e6;
+                color: #000;
+                border: 2px solid #d2b7e0e6;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                &:hover {
+                    background-color: #f7bcd0;
+                    border-color: #f7bcd0;
+                    transition: 0.4s;
+                }
+    
+            }
+        }
+        &__social {
+            display: flex;
+            align-items: center;
+        }
+        &__list {
+            margin-left: 1rem;
+            display: flex;
+            list-style: none;
+            gap: 1.5rem;
+            i {
+                font-size: 20px;
+                color: #d2b7e0;
+            }
+        }
+        &__imagebox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+        }
+        &__image {
+            width: 70%;
+        }
+}
+
+@keyframes flicker {
+              
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #d2b7e0,
+        0 0 11px #d2b7e0,
+        0 0 19px #d2b7e0,
+        0 0 40px #d2b7e0,
+        0 0 80px #d2b7e0,
+;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }

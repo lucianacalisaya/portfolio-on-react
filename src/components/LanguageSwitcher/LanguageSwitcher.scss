@@ -1,0 +1,20 @@
+.switcher {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1rem;
+    &__button {
+        border-radius: 4px;
+        background-color: unset;
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        &:hover {
+            background-color: #f7bcd0;
+            color: #000000;
+            border-color: #f7bcd0;
+            transition: 0.6s;
+        }
+    }
+}

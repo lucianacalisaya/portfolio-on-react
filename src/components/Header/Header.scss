@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        padding: 1vw;
+        margin-left: 3rem;    
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        flex-wrap: wrap;
+        &__logo {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: unset;
+        }
+    }
+}

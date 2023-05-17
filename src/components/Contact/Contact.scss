@@ -1,0 +1,29 @@
+.contact {
+    &__box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 35vh;
+    }
+    &__social-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+    }
+    &__social-media {
+        text-align: center;
+    }
+    a {
+        color: #ffffff;
+        i {
+        font-size: 36px;
+        padding: 10%;
+        border-radius: 100%;
+            &:hover {
+            transform: scale(1.1);
+            }
+        }
+    }
+}

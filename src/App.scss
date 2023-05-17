@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Codystar&family=Comfortaa:wght@300&family=DotGothic16&family=Josefin+Sans:wght@300;400&family=Satisfy&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Comfortaa', cursive;
+  background-color: #141414;
+  color: #ffffff;
+}
+.title-container {
+  background-color: #232323;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  &__item {
+      font-family: 'Satisfy', cursive;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  .about-me {
+      flex-direction: column;
+  }
+  .about-me__image-container {
+      margin-top: 2rem;
+  }
+  .footer-still {
+      position: static;
+  }
+
+  .cv {
+      padding: 0 6rem;
+      h2 {
+          text-align: center;
+      }
+      .skills {
+          padding-left: unset;
+      }
+  }
+
+  .portfolio {
+      &__project {
+          flex-direction: column;
+          align-items: center;
+          &-head {
+              width: 100%;
+              height: 3rem;
+              order: 0;
+              &-title {
+                  transform: unset !important;
+              }
+          }
+          &-images {
+              order: 2;
+              flex-direction: column;
+              align-items: center;
+          }
+          &-image {
+              width: 100vw;
+              padding: 0 6rem;
+          }
+          &-reservando {
+              width: 15rem;
+              padding: unset;
+          }
+          &-grid {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              padding: 0 6rem;
+              background-color: unset;
+          }
+          &-text {
+              order: 1;
+              width: 100%;
+              height: unset;
+              padding: 0 6rem;
+          }
+      }
+  }
+  .contact {
+      &__box {
+          flex-wrap: wrap;
+          min-height: 12rem;
+          height: unset;
+      }
+      &__social-box {
+          justify-content: space-around;
+          width: 15rem;
+          height: 12rem;
+      }
+  }
+  .footer-static {
+      position: static;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .navbar {
+      flex-direction: column;
+      align-items: center;
+      &-logo {
+          width: fit-content;
+          margin-left: unset;
+      }
+      &-menu {
+          flex-wrap: wrap;
+      }
+  }
+  .quick-info {
+      &__move {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      &__image {
+          display: none;
+      }
+      &__contact {
+          margin-left: unset;
+          align-items: center;
+      }
+      &__download {
+          width: 100%;
+          text-align: center;
+      }
+  }
+  .cv {
+      padding: 0 3rem;
+      h2 {
+          text-align: center;
+      }
+      .skills {
+          width: 100%;
+      }
+  }
+}

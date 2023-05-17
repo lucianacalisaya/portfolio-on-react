@@ -1,0 +1,155 @@
+.project {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    >:nth-child(n+3) {
+        padding-right: 6rem;
+    }
+    >:nth-child(n+2) {
+        margin-left: 6rem;
+    }
+    &__header {
+        width: 6rem;
+        background-color: #f3abc7;               
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    //revisar titulo en n2
+    &__title {
+        transform: rotate(270deg);
+    }
+    &__grid {
+        display:flex;
+        align-items: baseline;
+        justify-content: center;
+        padding: 2rem 0;
+        margin-left: unset !important;
+        height: 60vh;
+        max-height: 24rem;
+        max-width: 30rem;
+    }
+    &__imagebox {
+        height: 100%;
+    }
+    &__image {
+        width:100%;
+        height: auto;
+    }
+
+    &__description {
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2rem 0;
+
+
+        &-title {
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 6px;
+        }
+        &-tools {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem 0;
+            i {
+                font-size: 2rem;
+                background-color: unset;
+            }
+            .fa-html5 {
+                color: #e34f26;
+            }
+            .fa-css3-alt {
+                color: #519aba;
+            }
+            .fa-github {
+                color: #6e5494;
+            }
+            .fa-bootstrap {
+                color:#712cf9;
+            }
+            .fa-behance {
+                color: #1769ff;
+            }
+            .fa-react {
+                color: #00d8ff;
+            }
+            .fa-js {
+                color: #f7df1e;
+            }
+            .fa-sass {
+                color: #cf649a;
+            }
+            img {
+                height: 2rem;
+            }
+        }
+
+        &-link {
+            height:40px;
+            background-color:#f3abc7;
+            transition: all .7s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 10px;
+            &:hover {
+                background-color:#c8bce4  ;
+            }
+        }
+    }
+    
+    i {
+        font-size: 2rem;
+        background-color: unset;
+    }
+    
+}
+
+.fa-adobe {
+    height: 2rem;
+    width: 36px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/512px-Adobe_XD_CC_icon.svg.png);
+    background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+    .project {
+        align-items: center;
+        flex-direction: column;
+        >:nth-child(n+3) {
+            padding-right: 6rem;
+        }
+        >:nth-child(n+2) {
+            margin-left: unset;
+        }
+        &__header {
+            width: 100%;
+            height: 3rem;
+            order: 0;
+            h2 {
+                transform: unset;
+            }
+
+        }
+        &__description {
+            order: 1;
+            width: 100%;
+            height: unset;
+            padding: 0 6rem;
+        }
+        &__grid {
+            max-height: unset;
+        }
+        &__image {
+            height: unset;
+            width: 100%;
+            order: 2;
+        }
+    }
+}
