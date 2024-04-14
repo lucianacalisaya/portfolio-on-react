@@ -1,5 +1,56 @@
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  &__menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  }
+  &__item {
+      &:hover {
+          transform: scale(1.09);
+          transition: 0.4s;
+      }
+  }
+  &__link {
+      font-size: 1.5rem;
+      font-family: 'Bebas Neue', cursive;
+      color: #ffffff;
+      text-decoration: none;
+          &:hover {
+          color: #f7bcd0;
+          transition: 0.4s;
+          }
+      }
+}
+
+@media only screen and (max-width:700px) {
+  .navbar {
+      padding-left: 4rem;
+      align-items: flex-start;
+      height: 100vh;
+      padding-top: 3rem;
+      position: fixed;
+      width: 70%;
+      background: #141414;
+      top: 0;
+
+      &__menu {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1rem;
+      }
+
+  }
+}
 .hamburger {
     width: 100%;
+    display: flex;
     &__button {
         background-color: unset;
         border: unset;
@@ -43,9 +94,34 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+  .show-menu {
+    display: block;
+  }
   .hamburger {
+    // order: 3;
     width: min-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    padding-top: 0.5rem;
+    &__button {
+      display: flex;
+      z-index: 2;
+    }
+    .hamburger__lines--close {
+      .line1 {
+        transform:rotate(45deg) ;
+      }
+      .line2 {
+        width: 0;
+      }
+      .line3 {
+        transform: rotate(-45deg);
+      }
+    }
   }
 }

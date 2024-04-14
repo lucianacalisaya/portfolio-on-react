@@ -1,9 +1,18 @@
 import './Project.scss';
+import { getTranslation } from '../../services/utils'
 
-const Project = ({title, description, tools, img0, link}) => {
+import {useContext } from 'react';
+
+import { LanguageContext } from '../../context/LanguageContext';
+
+
+const Project = ({title, description, tools, img0, link}, context) => {
+
+    const { language } = useContext(LanguageContext)
+
     return (
         <div className='project'>
-            <div className='project__header'>
+            <div className='project__header' data-aos="flip-left">
                 <h2 className='project__title'>{title}</h2>
             </div>
             <div className='project__grid'>
@@ -13,8 +22,8 @@ const Project = ({title, description, tools, img0, link}) => {
             </div>
             <div className='project__description'>
                 <div className='project__description-body'>
-                    <h3 className='project__description-title'>About the project</h3>
-                    <p className='project__description-text'>{description}</p>
+                    <h3 className='project__description-title'>{getTranslation('aboutProject', language)}</h3>
+                    <p className='project__description-text'>{ description}</p>
                 </div>
                 <ul className='project__description-tools'>
                     {tools.map(tools => {
@@ -23,7 +32,7 @@ const Project = ({title, description, tools, img0, link}) => {
                         )
                     })}
                 </ul>
-                <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>Visit Project</a>
+                <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>{getTranslation('visit', language)}</a>
             </div>
         </div>
     )

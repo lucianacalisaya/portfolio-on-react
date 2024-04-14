@@ -11,8 +11,9 @@ const LanguageSwitcher = () => {
     console.log(language)
     return (
         <div className='switcher' value={language} onClick={handleUpdateLanguage}>
-            <button className='switcher__button' value='en'>ENG</button>
-            <button className='switcher__button' value='es'>SPA</button>
+            <button className='switcher__button switcher__button--eng' value='en'></button>
+            <button className='switcher__button switcher__button--spa' value='es'></button>
+            <button className='switcher__button switcher__button--fr' value='fr'></button>
         </div>
     )
 

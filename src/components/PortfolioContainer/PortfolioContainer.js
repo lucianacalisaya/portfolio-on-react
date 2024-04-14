@@ -4,11 +4,16 @@ import { useParams } from 'react-router-dom';
 import { getDocs, collection } from 'firebase/firestore';
 import { db } from '../../services/firebase';
 import PortfolioProjects from '../PortfolioProjects/PortfolioProjects';
+import { getTranslation } from '../../services/utils'
+import {useContext } from 'react';
+import { LanguageContext } from '../../context/LanguageContext';
 
 const PortfolioContainer = () => {
     const [projects, setProjects] = useState([]);
     const [loading, setLoading] = useState(true)
     const {allProjects} = useParams();
+    const { language } = useContext(LanguageContext)
+
 
     useEffect(() => {
         const collectionRef = collection(db, 'projects')
@@ -30,7 +35,7 @@ const PortfolioContainer = () => {
     return (
         <main>
             <div className='title-container'>
-                <h1 className='title-container__item'>My projects</h1>
+                <h1 className='title-container__item'>{getTranslation('projectsTitle', language)}</h1>
             </div>
             <PortfolioProjects projects={projects}/>
         </main>
