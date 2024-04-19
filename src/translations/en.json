@@ -56,7 +56,21 @@
 
             "visit": "Visit the project",
             "aboutProject": "About the project",
-            "description":"Blossom weddings is about a fictional wedding planner company. As the goal is to have all the information in one place, the landing page format seemed perfect for the occasion. It has two diferent designs for desktop and mobile, it also adapts itself for tablets and all kind of screens.",
-            "projectsTitle": "My Projects"
+            "projectsTitle": "My Projects",
+            "projectsDescription": [
+                {
+                    "id": 1,
+                    "description": "Blossom weddings is about a fictional wedding planner company. As the goal is to have all the information in one place, the landing page format seemed perfect for the occasion. It has two different designs for desktop and mobile, it also adapts itself for tablets and all kind of screens"
+                },
+                {
+                    "id": 2,
+                    "description":  "Reservando purpose is to help gluten intolerant people to find more places where they can eat without worrying. It has as primary idea the capacity to check all restaurants near you and to book a table when you are in a hurry."
+                },
+                {
+                    "id": 3,
+                    "description": "Armydive is fictional site where you can find all BTS merch, albums, eps, etc. An easier way to find everything related to BTS, an e-commerce just for Army, the fanbase of the k-pop group. The site is full responsive and Firebase was used for the backend part of the project."
+                }
+            ]
         }
+
 

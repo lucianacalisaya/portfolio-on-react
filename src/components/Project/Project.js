@@ -5,9 +5,8 @@ import React from 'react';
 
 const Project = ({ id, title, description, tools, img, link, language }) => {
 
-    const descriptionText = description[language] || description.en;
+    const descriptionText = getTranslation('projectsDescription', language).find(projectsDescription => projectsDescription.id === id)?.description || '';
 
-    console.log('Description Text:', descriptionText);
 
     return (
         <div className='project' key={id}>

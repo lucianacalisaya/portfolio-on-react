@@ -45,5 +45,19 @@
     
     "visit": "Visitez le project",
     "aboutProject": "À propos du projet",
-    "projectsTitle": "Mes Projects"
+    "projectsTitle": "Mes Projects",
+    "projectsDescription": [
+        {
+            "id": 1,
+            "description": "Blossom Weddings concerne une entreprise fictive d'organisation de mariages. Comme le but est d'avoir toutes les informations au même endroit, le format de la landing page nous a semblé parfait pour l'occasion. Il a deux designs différents pour ordinateur et mobile, il s'adapte également aux tablettes et à tout type d'écrans"
+        },
+        {
+            "id": 2,
+            "description": "Le but de Reservando est d'aider les personnes intolérantes au gluten à trouver davantage d'endroits où elles peuvent manger sans s'inquiéter. Son idée principale est la capacité de vérifier tous les restaurants près de chez vous et de réserver une table lorsque vous êtes pressé."
+        },
+        {
+            "id": 3,
+            "description": "Armydive est un site fictif où vous pouvez trouver tous les produits dérivés, albums, eps, etc. BTS. Un moyen plus simple de trouver tout ce qui concerne BTS, un e-commerce juste pour Army, la fanbase du groupe k-pop. Le site est entièrement réactif et Firebase a été utilisé pour la partie backend du projet."
+        }
+    ]
 }
