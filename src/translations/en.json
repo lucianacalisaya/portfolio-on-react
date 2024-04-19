@@ -7,7 +7,9 @@
 
             "hello": "Hello, I am",
             "profession": "Front-end Developer",
-            "text": "I am passionate about technology since I was young, I also always loved english, maths and science. I love putting together webs through coding so on the projects I did I like to you my skills to create responsive and functionally websites. In terms of how I am when I work, I commit to what I have to do, I like to be organised and transparent as I can be, also, I thrive team work very much, I think it's a nice way to get knowledge an improve. I believe I have much to give and learn so I'm open to new challenges.",
+            "text1": "I am passionate about technology since I was young, I also always loved english, maths and science. I love putting together webs through coding so on the projects I did I like to you my skills to create responsive and functionally websites.",
+            "text2": "In terms of how I am when I work, I commit to what I have to do, I like to be organised and transparent as I can be, also, I thrive team work very much, I think it's a nice way to get knowledge an improve. ",
+            "text3": "I believe I have much to give and learn so I'm open to new challenges.",
             "button": "Let's talk!",
             "check": "Check out my",
 

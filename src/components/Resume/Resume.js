@@ -70,7 +70,7 @@ const Resume = () => {
                         </ul>
                     </div>
                     <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('webSketch', language)}</h4>
+                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('tools', language)}</h4>
                         <ul className="cv__list cv__list--skills">
                             <li>Git</li>
                             <li>Github</li>

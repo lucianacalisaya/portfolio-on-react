@@ -14,7 +14,9 @@ const Index = (context) => {
                     <p className="home__text">{ getTranslation('hello', language) }</p>
                     <h1 className="home__title">Luciana Calisaya</h1>
                     <h2 className="home__subtitle">{getTranslation('profession', language)}</h2>
-                    <p className="home__text">{ getTranslation('text', language)}</p>
+                    <p className="home__text">{ getTranslation('text1', language)}</p>
+                    <p className="home__text">{ getTranslation('text2', language)}</p>
+                    <p className="home__text">{ getTranslation('text3', language)}</p>
                 </div>
                 <div className="home__button">
                     <Link className="home__button--link" to='/contact'>{ getTranslation('button', language)}</Link>

@@ -168,8 +168,19 @@
         h2 {
             text-align: center;
         }
-        .skills {
+        &__h3 {
+            width: 100%;
+        }
+        &__h4 {
+            &--skill {
+                width: unset;
+            }
+        }
+        &__skills {
             padding-left: unset;
+            flex-direction: unset;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
     }
 }
@@ -199,6 +210,9 @@
         padding: 0 3rem;
         h2 {
           text-align: center;
+        }
+        &__skillbox {
+            flex-direction: column;
         }
         .skills {
           width: 100%;
