@@ -1,40 +1,40 @@
 import './Project.scss';
-import { getTranslation } from '../../services/utils'
-
-import {useContext } from 'react';
-
-import { LanguageContext } from '../../context/LanguageContext';
+import { getTranslation } from '../../services/utils';
+import React from 'react';
 
 
-const Project = ({title, description, tools, img0, link}, context) => {
+const Project = ({ id, title, description, tools, img, link, language }) => {
 
-    const { language } = useContext(LanguageContext)
+    const descriptionText = description[language] || description.en;
+
+    console.log('Description Text:', descriptionText);
 
     return (
-        <div className='project'>
+        <div className='project' key={id}>
             <div className='project__header' data-aos="flip-left">
                 <h2 className='project__title'>{title}</h2>
             </div>
             <div className='project__grid'>
                 <div className='project__imagebox'>
-                    <img className='project__image' src={img0} alt='prueba'/>
+                    <img className='project__image' src={img} alt='prueba' />
                 </div>
             </div>
             <div className='project__description'>
                 <div className='project__description-body'>
                     <h3 className='project__description-title'>{getTranslation('aboutProject', language)}</h3>
-                    <p className='project__description-text'>{ description}</p>
+                    <p className='project__description-text'>{descriptionText}</p>
                 </div>
                 <ul className='project__description-tools'>
-                    {tools.map(tools => {
-                        return (
-                            <li><i className={`fab fa-${tools}`}></i></li>
-                        )
-                    })}
+                    {tools.map(tool => (
+                        <li key={tool}><i className={`fab fa-${tool}`} /></li>
+                    ))}
                 </ul>
-                <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>{getTranslation('visit', language)}</a>
+                <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>
+                    {getTranslation('visit', language)}
+                </a>
             </div>
         </div>
-    )
-}
-export default Project
+    );
+};
+
+export default Project;

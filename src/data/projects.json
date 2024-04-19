@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Blossom Weddings",
+        "description": {
+            "en": "Blossom weddings is about a fictional wedding planner company. As the goal is to have all the information in one place, the landing page format seemed perfect for the occasion. It has two different designs for desktop and mobile, it also adapts itself for tablets and all kind of screens",
+            "es": "Blossom Weddings trata sobre una empresa ficticia de planificación de bodas. Como el objetivo es tener toda la información en un solo lugar, el formato de landing page me pareció perfecto para la ocasión. Tiene dos diseños diferentes para escritorio y móvil, también se adapta a tablets y todo tipo de pantallas.",
+            "fr": "Blossom Weddings concerne une entreprise fictive d'organisation de mariages. Comme le but est d'avoir toutes les informations au même endroit, le format de la landing page nous a semblé parfait pour l'occasion. Il a deux designs différents pour ordinateur et mobile, il s'adapte également aux tablettes et à tout type d'écrans"
+        },
+        "tools": ["github", "html5", "css3-alt", "bootstrap"],
+        "img": "https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/blossom_demo.gif?alt=media&token=d3082bbe-419f-4c1b-a584-dbacac7e2e79",
+        "link": "https://blossomweddings.netlify.app/",
+        "year": "2020",
+        "alt": "Blossom Weddings landing page"
+    },
+    {
+        "id": 2,
+        "title": "Reservando",
+        "description": {
+            "en": "Reservando purpose is to help gluten intolerant people to find more places where they can eat without worrying. It has as primary idea the capacity to check all restaurants near you and to book a table when you are in a hurry.",
+            "es": "Reservando tiene como objetivo ayudar a las personas intolerantes al gluten a encontrar más lugares donde poder comer sin preocupaciones. Tiene como idea principal la capacidad de consultar todos los restaurantes cercanos a ti y reservar una mesa cuando tengas prisa.",
+            "fr": "Le but de Reservando est d'aider les personnes intolérantes au gluten à trouver davantage d'endroits où elles peuvent manger sans s'inquiéter. Son idée principale est la capacité de vérifier tous les restaurants près de chez vous et de réserver une table lorsque vous êtes pressé."
+        },
+        "tools": ["behance", "adobe"],
+        "img": "https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/reservando_mobile.png?alt=media&token=117aa171-7de6-444a-86ec-70fe085dc0d6",
+        "link": "https://xd.adobe.com/view/da64dee6-eb2d-4359-9527-b73715f4694a-8f37/?fullscreen",
+        "year": "2020",
+        "alt": "Reservando protoype"
+    },
+    {
+        "id": 3,
+        "title": "ArmyDive",
+        "description": {
+            "en": "Armydive is fictional site where you can find all BTS merch, albums, eps, etc. An easier way to find everything related to BTS, an e-commerce just for Army, the fanbase of the k-pop group. The site is full responsive and Firebase was used for the backend part of the project.",
+            "es": "Armydive es un sitio ficticio donde puedes encontrar todo el merchandising, álbumes, eps, etc. de BTS. Una forma más fácil de encontrar todo lo relacionado con BTS, un e-commerce solo para Army, la base de fans del grupo de k-pop. El sitio es full responsive y se utilizó Firebase para la parte backend del proyecto.",
+            "fr": "Armydive est un site fictif où vous pouvez trouver tous les produits dérivés, albums, eps, etc. BTS. Un moyen plus simple de trouver tout ce qui concerne BTS, un e-commerce juste pour Army, la fanbase du groupe k-pop. Le site est entièrement réactif et Firebase a été utilisé pour la partie backend du projet."
+        },
+        "tools": ["github", "html5", "sass", "react"],
+        "img": "https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/process.gif?alt=media&token=13eef9f3-ce54-4aa2-95dc-c0dc5b4030f4",
+        "link": "https://armydive.netlify.app/",
+        "year": "2022",
+        "alt": "ArmyDive shopping process simulation"
+    }
+]

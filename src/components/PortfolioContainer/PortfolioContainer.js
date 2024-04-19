@@ -1,45 +1,39 @@
 import './PortfolioContainer.scss';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
-import { getDocs, collection } from 'firebase/firestore';
-import { db } from '../../services/firebase';
+import {getProjects} from '../../data/asyncMock'
 import PortfolioProjects from '../PortfolioProjects/PortfolioProjects';
 import { getTranslation } from '../../services/utils'
-import {useContext } from 'react';
 import { LanguageContext } from '../../context/LanguageContext';
 
 const PortfolioContainer = () => {
     const [projects, setProjects] = useState([]);
-    const [loading, setLoading] = useState(true)
-    const {allProjects} = useParams();
-    const { language } = useContext(LanguageContext)
-
+    const [loading, setLoading] = useState(true);
+    const { projectId } = useParams();
+    const { language } = useContext(LanguageContext);
 
     useEffect(() => {
-        const collectionRef = collection(db, 'projects')
-        getDocs(collectionRef).then(response => {
-            const projectsAdapted = response.docs.map(doc => {
-                const data=doc.data()
-                return { id: doc.id, ...data}
-            })
-            setProjects(projectsAdapted)
-        }).catch(error=> {
+        getProjects(projectId).then(response => {
+            setProjects(response.slice(0,8))
+        }).catch(error => {
             console.log(error)
         }).finally(() => {
             setLoading(false)
         })
-    }, [allProjects]);
-    if(loading) {
-        return
+    }, [projectId, language]); 
+
+    if (loading) {
+        return <div>Loading...</div>;
     }
+
     return (
         <main>
             <div className='title-container'>
                 <h1 className='title-container__item'>{getTranslation('projectsTitle', language)}</h1>
             </div>
-            <PortfolioProjects projects={projects}/>
+            <PortfolioProjects projects={projects} language={language} />
         </main>
     );
 };
 
-export default PortfolioContainer
+export default PortfolioContainer;
