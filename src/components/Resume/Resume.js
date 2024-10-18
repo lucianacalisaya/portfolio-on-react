@@ -26,7 +26,7 @@ const Resume = () => {
                             <li><a className="quick-info__social-media--link" href="https://www.linkedin.com/in/luciana-calisaya/"><i className="fab fa-linkedin-in"></i> /luciana-calisaya</a></li>
                             <li><a className="quick-info__social-media--link" href="https://github.com/lucianacalisaya"><i className="fab fa-github"></i> /lucianacalisaya</a></li>
                         </ul>
-                        <a className="quick-info__download" target="_blank" href="img/resume2022-Luciana-Calisaya.pdf"><i className="fas fa-arrow-alt-circle-down"></i> {getTranslation('download', language)}</a>
+                        <a className="quick-info__download" target="_blank" rel='noreferrer' href="https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/resume-calisaya-2024.pdf?alt=media&token=81df7ef2-2fce-49c5-b993-e9c033c02084"><i className="fas fa-arrow-alt-circle-down"></i> {getTranslation('download', language)}</a>
                     </div>                
                 </div>
             </div>
