@@ -20,13 +20,16 @@ const Resume = () => {
                     </div>
                     <div className="quick-info__contact">
                         <ul className="quick-info__social-media">
-                            <li className="quick-info__social-media--link">Luciana Melina Calisaya</li>
-                            <li className="quick-info__social-media--link"><i className="fas fa-map-marker-alt"></i> Montpellier, France</li>
+                            <li className="quick-info__social-media--link quick-info__social-media--name">Luciana Melina Calisaya - {getTranslation('position', language)}</li>
+                            <li className="quick-info__social-media--link"><i class="fas fa-search"></i> <span>{getTranslation('lookingFor', language)}</span>: {getTranslation('lookingForPositions', language)}</li>
+                            <li className="quick-info__social-media--link"><i className="fas fa-map-marker-alt"></i>     {getTranslation('location', language)}</li>
+                            <li className="quick-info__social-media--link"><i class="far fa-clock"></i> 
+                            <span> {getTranslation('availability', language)}</span>: {getTranslation('availabilityTime', language)}</li>
                             <li><a className="quick-info__social-media--link" href="mailto: lmc.calisaya@gmail.com"><i className="far fa-envelope"></i> lmc.calisaya@gmail.com</a></li>
                             <li><a className="quick-info__social-media--link" href="https://www.linkedin.com/in/luciana-calisaya/"><i className="fab fa-linkedin-in"></i> /luciana-calisaya</a></li>
                             <li><a className="quick-info__social-media--link" href="https://github.com/lucianacalisaya"><i className="fab fa-github"></i> /lucianacalisaya</a></li>
                         </ul>
-                        <a className="quick-info__download" target="_blank" rel='noreferrer' href="https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/resume-calisaya-2024.pdf?alt=media&token=81df7ef2-2fce-49c5-b993-e9c033c02084"><i className="fas fa-arrow-alt-circle-down"></i> {getTranslation('download', language)}</a>
+                        <a className="quick-info__download" target="_blank" rel='noreferrer' href={getTranslation('downloadLink', language)}><i className="fas fa-arrow-alt-circle-down"></i> {getTranslation('download', language)}</a>
                     </div>                
                 </div>
             </div>
@@ -95,6 +98,16 @@ const Resume = () => {
                             <li>Behance</li>
                         </ul>
                     </div>
+                    <div className="cv__qualities">
+                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('qualities', language)}</h4>
+                        <ul className='cv__list cv__list--skills'>
+                            <li>{getTranslation('quality1', language)}</li>
+                            <li>{getTranslation('quality2', language)}</li>
+                            <li>{getTranslation('quality3', language)}</li>
+                            <li>{getTranslation('quality4', language)}</li>
+                            <li>{getTranslation('quality5', language)}</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="cv__background cv__padding">
                     <h3 className="cv__background--title cv__h3">{getTranslation('background', language)}</h3>
@@ -108,7 +121,7 @@ const Resume = () => {
                     <div className="cv__fieldset">
                         <h4 className="cv__h4">{getTranslation('certifications', language)}</h4>
                         <ul className='cv__list'>
-                            <li>{getTranslation('webDev', language)}<span className='cv__date'>2020</span></li>
+                            <li>{getTranslation('webDev', language)}<span className='cv__date'> 2020</span></li>
                             <li>UX/UI <span className='cv__date'>2020</span></li>
                             <li>JavaScript <span className='cv__date'>2021</span></li>
                             <li>React JS <span className='cv__date'>2022</span></li>
@@ -116,21 +129,21 @@ const Resume = () => {
                     </div>
                     <div className="cv__fieldset">
                         <h4 className="cv__h4">{getTranslation('workExp', language)}</h4>
-                        <ul className='cv__list'>
-                            <li>{getTranslation('workTitle', language)}<a className="cv__fieldset--link" href="https://www.coderhouse.com/">Coderhouse</a> <span className="cv__date">Dec 2020 - Feb 2023</span></li>
-                            
+                        <ul className='cv__list  cv__list--bullets'>
+                            <li className='cv__list--exception'>{getTranslation('workTitle', language)} – <a className="cv__fieldset--link" href="https://www.coderhouse.com/">Coderhouse</a><br/><span className="cv__date">Dec 2020 - Feb 2023</span></li>
+                            <li>{getTranslation('workDescription1', language)}</li>
+                            <li>{getTranslation('workDescription2', language)}</li>
+                            <li>{getTranslation('workDescription3', language)}</li>
+                        </ul>
+                        <br/>
+                        <ul className='cv__list  cv__list--bullets'>
+                            <li className='cv__list--exception'>{getTranslation('work2Title', language)} – Realixo<br/><span className="cv__date">Jul 2025 - {getTranslation('work2TitleTime', language)}</span></li>
+                            <li>{getTranslation('work2Description1', language)}</li>
+                            <li>{getTranslation('work2Description2', language)}</li>
+                            <li>{getTranslation('work2Description3', language)}</li>
                         </ul>
                     </div>
-                    <div className="cv__fieldset">
-                        <h4 className="cv__h4">{getTranslation('qualities', language)}</h4>
-                        <ul className='cv__list'>
-                            <li>{getTranslation('quality1', language)}</li>
-                            <li>{getTranslation('quality2', language)}</li>
-                            <li>{getTranslation('quality3', language)}</li>
-                            <li>{getTranslation('quality4', language)}</li>
-                            <li>{getTranslation('quality5', language)}</li>
-                        </ul>
-                    </div>
+                    
                     <div className="cv__fieldset">
                         <h4 className="cv__h4">Extra</h4>
                         <ul className='cv__list'>
@@ -152,6 +165,9 @@ const Resume = () => {
                     </p>
                     <p className="cv__about--text">
                         {getTranslation('descriptionResume3', language)}
+                    </p>
+                    <p className="cv__about--text">
+                        {getTranslation('descriptionResume4', language)}
                     </p>
                 </div>
             </div>
