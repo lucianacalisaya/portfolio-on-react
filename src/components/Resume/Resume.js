@@ -36,81 +36,60 @@ const Resume = () => {
 
             <div className="cv width-limit">
                 <div className="cv__skills cv__padding">
-                    <h3 className="cv__h3">{getTranslation('skills', language)}</h3>
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('languages', language)}</h4>
-                        <ul className="cv__list cv__list--skills">
-                            <li>{getTranslation('spanish', language)}</li>
-                            <li>{getTranslation('english', language)}</li>
-                            <li>{getTranslation('portuguese', language)}</li>
-                            <li>{getTranslation('french', language)}</li>
-                        </ul>
-                    </div>
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('webSketch', language)}</h4>
-                        <ul className="cv__list cv__list--skills">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>SASS</li>
-                            <li>SEO</li>
-                            <li>JavaScript <span className="cv__highlight">JQuery</span></li>
-                            <li>TypeScript</li>
-                            <li>React JS</li>
-                            <li>Next JS</li>
-                        </ul>
-                    </div>
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('libraries', language)}</h4>
-                        <ul className="cv__list cv__list--skills">
-                            <li>Bootstrap</li>
-                            <li>TailwindCSS</li>
-                        </ul>
-                    </div>
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">Database</h4>
-                        <ul className="cv__list cv__list--skills">
-                            <li>Firebase</li>
-                        </ul>
-                    </div>
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('tools', language)}</h4>
-                        <ul className="cv__list cv__list--skills">
-                            <li>Git</li>
-                            <li>Github</li>
-                            <li>Node JS</li>
-                        </ul>
-                    </div>
+                    <h3 className="cv__h3">{getTranslation('tech', language)}</h3>
+
                     
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('visualSketch', language)}</h4>
+                    <div className="cv__fieldset">
+                        <h4 className="cv__h4">{getTranslation('frontend', language)}</h4>
                         <ul className="cv__list cv__list--skills">
+                            <li>HTML5, CSS3, SASS</li>
+                            <li>JavaScript (ES6+) <span className="cv__highlight">JQuery</span></li>
+                            <li>TypeScript</li>
+                            <li>React JS, NextJS</li>
+                            <li>{getTranslation('responsive', language)}</li>
+                            <li>SEO</li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <div className="cv__fieldset">
+                        <h4 className="cv__h4">{getTranslation('frameworks', language)}</h4>
+                        <ul className="cv__list cv__list--skills">
+                            <li>TailwindCSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <div className="cv__fieldset">
+                        <h4 className="cv__h4">{getTranslation('tools', language)}</h4>
+                        <ul className="cv__list cv__list--skills">
+                            <li>Git, Github</li>
+                            <li>Firebase</li>
+                            <li>Node JS</li>
                             <li>Adobe XD</li>
                             <li>Figma</li>
                         </ul>
                     </div>
-                    <div className="cv__skillbox">
-                        <h4 className="cv__h4 cv__h4--skill">UX/UI</h4>
+                    <br/>
+                    <div className="cv__fieldset">
+                        <h4 className="cv__h4">UX / UI</h4>
                         <ul className="cv__list cv__list--skills">
                             <li>User research</li>
                             <li>User testing</li>
-                            <li>Whimsical</li>
-                            <li>Optimal workshop</li>
-                            <li>Behance</li>
+                            <li>{getTranslation('ux-ui', language)}</li>
                         </ul>
                     </div>
-                    <div className="cv__qualities">
-                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('qualities', language)}</h4>
-                        <ul className='cv__list cv__list--skills'>
-                            <li>{getTranslation('quality1', language)}</li>
-                            <li>{getTranslation('quality2', language)}</li>
-                            <li>{getTranslation('quality3', language)}</li>
-                            <li>{getTranslation('quality4', language)}</li>
-                            <li>{getTranslation('quality5', language)}</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="cv__background cv__padding">
+                    <br/>
                     <h3 className="cv__background--title cv__h3">{getTranslation('background', language)}</h3>
+                    <div className="cv__fieldset">
+                        <h4 className="cv__h4">{getTranslation('languages', language)}</h4>
+                        <ul className="cv__list cv__list--skills">
+                            <li>{getTranslation('spanish', language)}</li>
+                            <li>{getTranslation('english', language)}</li>
+                            {/* <li>{getTranslation('portuguese', language)}</li> */}
+                            <li>{getTranslation('french', language)}</li>
+                        </ul>
+                    </div>
+                    <br/>
                     <div className="cv__fieldset">
                         <h4 className="cv__h4">{getTranslation('studies', language)}</h4>
                         <ul className='cv__list'>
@@ -118,6 +97,7 @@ const Resume = () => {
                             <li>Cambridge First Certificate <span className="cv__highlight">{getTranslation('cambridgeLevel', language)}</span></li>
                         </ul>
                     </div>
+                    <br/>
                     <div className="cv__fieldset">
                         <h4 className="cv__h4">{getTranslation('certifications', language)}</h4>
                         <ul className='cv__list'>
@@ -127,37 +107,27 @@ const Resume = () => {
                             <li>React JS <span className='cv__date'>2022</span></li>
                         </ul>
                     </div>
-                    <div className="cv__fieldset">
-                        <h4 className="cv__h4">{getTranslation('workExp', language)}</h4>
-                        <ul className='cv__list  cv__list--bullets'>
-                            <li className='cv__list--exception'>{getTranslation('workTitle', language)} – <a className="cv__fieldset--link" href="https://www.coderhouse.com/">Coderhouse</a><br/><span className="cv__date">Dec 2020 - Feb 2023</span></li>
-                            <li>{getTranslation('workDescription1', language)}</li>
-                            <li>{getTranslation('workDescription2', language)}</li>
-                            <li>{getTranslation('workDescription3', language)}</li>
+
+                    {/* <div className="cv__qualities">
+                        <h4 className="cv__h4 cv__h4--skill">{getTranslation('qualities', language)}</h4>
+                        <ul className='cv__list cv__list--skills'>
+                            <li>{getTranslation('quality1', language)}</li>
+                            <li>{getTranslation('quality2', language)}</li>
+                            <li>{getTranslation('quality3', language)}</li>
+                            <li>{getTranslation('quality4', language)}</li>
+                            <li>{getTranslation('quality5', language)}</li>
                         </ul>
-                        <br/>
-                        <ul className='cv__list  cv__list--bullets'>
-                            <li className='cv__list--exception'>{getTranslation('work2Title', language)} – Realixo<br/><span className="cv__date">Jul 2025 - {getTranslation('work2TitleTime', language)}</span></li>
-                            <li>{getTranslation('work2Description1', language)}</li>
-                            <li>{getTranslation('work2Description2', language)}</li>
-                            <li>{getTranslation('work2Description3', language)}</li>
-                        </ul>
-                    </div>
-                    
-                    <div className="cv__fieldset">
-                        <h4 className="cv__h4">Extra</h4>
-                        <ul className='cv__list'>
-                            <li>{getTranslation('keystone', language)}<span className='cv__date'>Dec 2021 - {getTranslation('month', language)} 2022</span></li>
-                            <li>{getTranslation('funFact', language)}</li>
-                        </ul>
-                    </div>
-                    
+                    </div> */}
                 </div>
-                
+                <div className="cv__background">
                 <div className="cv__about cv__padding width-limit">
-                    <h3 className="cv__h3">{getTranslation('descriptionResume', language)}
-</h3>
-                    <p className="cv__about--text">
+                    <h3 className="cv__h3">{getTranslation('descriptionResume', language)}</h3>
+                    <div className='cv__list'>
+                        <p className='cv__about--text'>{getTranslation('descriptionResume1', language)}</p>
+                        
+                        <p className='cv__about--text'>{getTranslation('descriptionResume2', language)}</p>
+                    </div>
+                    {/* <p className="cv__about--text">
                         {getTranslation('descriptionResume1', language)}
                     </p>
                     <p className="cv__about--text">
@@ -168,8 +138,83 @@ const Resume = () => {
                     </p>
                     <p className="cv__about--text">
                         {getTranslation('descriptionResume4', language)}
-                    </p>
+                    </p> */}
                 </div>
+                {/* <br/> */}
+                    <div className="cv__fieldset">
+                        <h3 className="cv__h3">{getTranslation('workExp', language)}</h3>
+                        <h4 className="cv__h4">{getTranslation('workTitle', language)} – <a className="cv__fieldset--link" href="https://www.coderhouse.com/">Coderhouse</a> (ARG)<br/><span className="cv__date">Dec 2020 - Feb 2023</span></h4>
+                        <ul className='cv__list  cv__list--bullets'>
+                            <li className='cv__list--exception'></li>
+                            <li>{getTranslation('workDescription1', language)}</li>
+                            <li>{getTranslation('workDescription2', language)}</li>
+                            <li>{getTranslation('workDescription3', language)}</li>
+                            <li>{getTranslation('workDescription4', language)}</li>
+                            <li>{getTranslation('workDescription5', language)}</li>
+                            <li>{getTranslation('workDescription6', language)}</li>
+                            <li>{getTranslation('workDescription7', language)}</li>
+                        </ul>
+                        <br/>
+                        <h4 className='cv__h4'>{getTranslation('work2Title', language)} – Keystone Resort (USA)<br/><span className="cv__date">Dec 2021 - {getTranslation('month', language)} 2022</span></h4>
+                        <ul className='cv__list  cv__list--bullets'>
+                            <li>{getTranslation('work2Description1', language)}</li>
+                            <li>{getTranslation('work2Description2', language)}</li>
+                            <li>{getTranslation('work2Description3', language)}</li>
+                            <li>{getTranslation('work2Description4', language)}</li>
+                            <li>{getTranslation('work2Description5', language)}</li>                            
+                        </ul>
+                    </div>
+                    <br/>
+                    <h3 className="cv__h3">{getTranslation('volunteerExp', language)}</h3>
+                    <div className="cv__fieldset">
+                        <h4 className='cv__h4'>{getTranslation('volunteer2Title', language)} (FR)<br/><span className="cv__date">Jun 2024 - {getTranslation('work2TitleTime', language)}</span></h4>
+                        <ul className='cv__list cv__list--bullets'>
+                            <li>{getTranslation('volunteer2Description1', language)}</li>    
+                            <li>{getTranslation('volunteer2Description2', language)}</li>
+                            <li>{getTranslation('volunteer2Description3', language)}</li>
+                        </ul>
+                    </div>
+                    <br/>
+                    <h4 className='cv__h4'>Secours Catholique (FR)<br/><span className="cv__date">Sep 2025 - {getTranslation('work2TitleTime', language)}</span></h4>
+                    <div className="cv__fieldset">
+                        <ul className='cv__list cv__list--bullets'>
+                            <li>{getTranslation('volunteerDescription1', language)}</li>
+                            <li>{getTranslation('volunteerDescription2', language)}
+                                <ul className='cv__list--indent'>
+                                    <li>{getTranslation('volunteerDescription3', language)}</li>
+                                    <li>{getTranslation('volunteerDescription4', language)}</li>
+                                    <li>{getTranslation('volunteerDescription5', language)}</li>    
+                                    <li>{getTranslation('volunteerDescription6', language)}</li>
+                                </ul>
+                            </li>
+                            <li>{getTranslation('volunteerDescription7', language)}
+                                <ul className='cv__list--indent'>
+                                    <li>{getTranslation('volunteerDescription8', language)}</li>
+                                    <li>{getTranslation('volunteerDescription9', language)}</li>
+                                </ul>
+                            </li>
+                            <li>{getTranslation('volunteerDescription10', language)}
+                                <ul className='cv__list--indent'>
+                                    <li>{getTranslation('volunteerDescription11', language)}</li>
+                                </ul>
+                            </li>
+                            <li>{getTranslation('volunteerDescription12', language)}</li>
+                            <li>{getTranslation('volunteerDescription13', language)}
+                                <ul className='cv__list--indent'>
+                                    <li>{getTranslation('volunteerDescription14', language)}</li>
+                                    <li>{getTranslation('volunteerDescription15', language)}</li>
+                                    <li>{getTranslation('volunteerDescription16', language)}</li>
+                                    <li>{getTranslation('volunteerDescription17', language)}</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+               
             </div>
         </main>
     )

@@ -128,6 +128,9 @@
         &--exception {
             list-style-type: none;
         }
+        &--indent {
+            margin-left: 1rem;
+        }
     }
     &__highlight {
         background-color: #bc8f8f;
@@ -135,7 +138,7 @@
         border-radius: 15px;
     }
     &__background {
-        width: 45%;
+        width: 60%;
     }
     &__fieldset {
         margin-bottom: 5px;
@@ -156,6 +159,12 @@
         flex-direction: column;
         padding-left: 20px;
         padding-top: 10px;
+        width: 30%;
+        background-color: black;
+        border-radius: 8px;
+        height: fit-content;
+        padding-bottom: 10px;
+
     }
     &__qualities {
         display: flex;
@@ -169,10 +178,9 @@
     }
     &__about {
         font-family: 'Montserrat', sans-serif;
-        padding-top: 10px;
         &--text {
             margin-bottom: 16px;
-            line-height: 22px;
+
         }
     }
 }
