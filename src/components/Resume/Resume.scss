@@ -185,7 +185,7 @@
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (min-width: 7001px) and (max-width:992px) {
     
     .quick-info {
         margin: 0 6rem;
@@ -240,13 +240,28 @@
         h2 {
           text-align: center;
         }
+        &__box {
+            width: 50%;
+        }
         &__skillbox {
             flex-direction: column;
         }
-        .skills {
+        &__skills {
           width: 100%;
+          flex-direction: row;
         }
         &__background {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cv {
+        &__skills {
+            flex-direction: column;
+        }
+        &__box {
             width: 100%;
         }
     }
