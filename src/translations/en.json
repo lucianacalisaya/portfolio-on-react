@@ -124,7 +124,16 @@
                 {
                     "id": 3,
                     "description": "Armydive is fictional site where you can find all BTS merch, albums, eps, etc. An easier way to find everything related to BTS, an e-commerce just for Army, the fanbase of the k-pop group. The site is full responsive and Firebase was used for the backend part of the project."
+                },
+                {
+                    "id": 4,
+                    "description": "This project is a full-stack dashboard application built as part of the official Next.js learning course. It includes authentication, a protected dashboard, and invoice management features, demonstrating core concepts such as routing, data handling, and server-side rendering. The goal of this project was to apply and showcase practical skills in building real-world applications, including user authentication, dynamic data rendering, and structured UI development. It reflects my ability to work with modern web technologies and implement scalable, production-like features."
+                },
+                {
+                    "id": 5,
+                    "description": "This project is a web-based artistic portfolio built to translate a Canva design into a responsive and interactive experience. It focuses on custom-built animations created from scratch to enhance usability and visual storytelling. The platform organizes the artist’s work and integrates direct access to her music, combining performance, design, and functionality."
                 }
+
             ]
         }
 

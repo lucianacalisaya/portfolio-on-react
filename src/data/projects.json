@@ -25,5 +25,23 @@
         "link": "https://armydive.netlify.app/",
         "year": "2022",
         "alt": "ArmyDive shopping process simulation"
+    },
+    {
+        "id": 4,
+        "title":"NextJs project",
+        "tools": ["github","html5","typescript", "tailwind-css"],
+        "img": "data/acme-nextjs.gif",
+        "link": "https://nextjs-nohsp2x9r-lucianas-projects-f8fd3d49.vercel.app/",
+        "year":"2024",
+        "alt":"NextJs project tour"
+    },
+    {
+        "id": 5,
+        "title":"Aini's Portofolio",
+        "tools": ["github","html5","sass"],
+        "img": "data/aini-portfolio.gif",
+        "link": "https://lucianacalisaya.github.io/aini-portfolio/",
+        "year":"2025",
+        "alt":"Aini's portfolio tour"
     }
 ]
