@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Blossom Weddings",
         "tools": ["github", "html5", "css3-alt", "bootstrap"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/blossom_demo.gif?alt=media&token=d3082bbe-419f-4c1b-a584-dbacac7e2e79",
+        "img": "data/blossom-weddings.gif",
         "link": "https://blossomweddings.netlify.app/",
         "year": "2020",
         "alt": "Blossom Weddings landing page"
@@ -12,7 +12,7 @@
         "id": 2,
         "title": "Reservando",
         "tools": ["behance", "adobe"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/reservando_mobile.png?alt=media&token=117aa171-7de6-444a-86ec-70fe085dc0d6",
+        "img": "data/reservando.png",
         "link": "https://xd.adobe.com/view/da64dee6-eb2d-4359-9527-b73715f4694a-8f37/?fullscreen",
         "year": "2020",
         "alt": "Reservando protoype"
@@ -21,7 +21,7 @@
         "id": 3,
         "title": "ArmyDive",
         "tools": ["github", "html5", "sass", "react"],
-        "img": "https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/process.gif?alt=media&token=13eef9f3-ce54-4aa2-95dc-c0dc5b4030f4",
+        "img": "data/armydive-process.gif",
         "link": "https://armydive.netlify.app/",
         "year": "2022",
         "alt": "ArmyDive shopping process simulation"

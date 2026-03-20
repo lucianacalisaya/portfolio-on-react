@@ -30,7 +30,7 @@ const Index = (context) => {
                 </div>
             </div>
             <div className="home__imagebox">
-                <img className="home__image" src='https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/home-illustration.png?alt=media&token=b9717241-cb72-47c9-9115-182744b433a7' alt="Luciana's profile"/>
+                <img className="home__image" src='data/home-illustration.png' alt="Luciana's profile"/>
             </div>
         </main>
     )

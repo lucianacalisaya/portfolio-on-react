@@ -16,7 +16,7 @@ const Resume = () => {
             <div className="quick-info">
                 <div className="quick-info__box width-limit">
                     <div className="quick-info__imagebox">
-                        <img className="quick-info__imagebox--image" src="https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/luciana-profile-pic.png?alt=media&token=89986547-12d9-4440-b91a-6fc77f979efb" alt="Luciana's profile"/>
+                        <img className="quick-info__imagebox--image" src="data/luciana-profile-pic.png" alt="Luciana's profile"/>
                     </div>
                     <div className="quick-info__contact">
                         <ul className="quick-info__social-media">

@@ -14,13 +14,13 @@
         cursor: pointer;
         opacity: 0.7;
         &--eng {
-            background-image: url(https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/uk.png?alt=media&token=3048f1a0-f848-47fd-afcc-1223e6af8c7a);
+            background-image: url(../../../public/data/united-kingdom.png);
         }
         &--spa {
-            background-image: url(https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/spain.png?alt=media&token=65786e68-8392-4243-9fad-802e44e37c6c);
+            background-image: url(../../../public/data/spain.png);
         }
         &--fr {
-            background-image: url(https://firebasestorage.googleapis.com/v0/b/portfoliobackend-aae35.appspot.com/o/france.png?alt=media&token=261f5767-d4f4-4217-bc65-2fc3f2090f2f);
+            background-image: url(../../../public/data/france.png);
         }
         &:hover {
             color: #000000;
