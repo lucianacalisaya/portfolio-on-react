@@ -1,45 +1,27 @@
 .switcher {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-right: 1rem;
-    &__button {
-        width: 36px;
-        height: 36px;
-        border-radius: 100%;
-        padding: unset;
-        background-size: cover;
-        background-position: center;        
-        border: 2px solid #ffffff;
-        cursor: pointer;
-        opacity: 0.7;
-        &--eng {
-            background-image: url(../../../public/data/united-kingdom.png);
-        }
-        &--spa {
-            background-image: url(../../../public/data/spain.png);
-        }
-        &--fr {
-            background-image: url(../../../public/data/france.png);
-        }
-        &:hover {
-            color: #000000;
-            border-color: #f7bcd0;
-            transition: 0.4s;
-            border: 2px solid transparent;
-            transform: scale(1.1);
-            opacity: 1;
-        }
-
-    }
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-right: .25rem;
+  &__button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+    opacity: .62;
+    transition: opacity .2s ease, transform .2s ease, border-color .2s ease;
+    &:hover { border-color: var(--accent); opacity: 1; transform: scale(1.08); }
+    &--eng { background-image: url(../../../public/data/united-kingdom.png); }
+    &--spa { background-image: url(../../../public/data/spain.png); }
+    &--fr { background-image: url(../../../public/data/france.png); }
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .switcher {
-        align-self: flex-start;
-        position: fixed;
-        top: 50vh;
-        right: 0;
-        flex-direction: column;
-    }
+  .switcher { gap: .35rem; margin-right: .25rem; }
+  .switcher__button { width: 27px; height: 27px; }
 }

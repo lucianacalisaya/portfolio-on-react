@@ -104,7 +104,11 @@
         {
             "id": 5,
             "description": "Un sitio web responsive para una artista, creado a partir de un diseño en Canva. Desarrollé las animaciones desde cero con SASS, organicé su trabajo en secciones claras e incluí acceso directo a su música."
-        }
+        },
+        {
+            "id": 6,
+            "description": "Un analizador de proposiciones compuestas y generador de tablas de verdad en Python. La aplicación traduce la lógica matemática a código ejecutable utilizando estructuras fundamentales como condicionales, bucles iterativos, listas y funciones documentadas con docstrings. Evalúa combinaciones binarias (1/0) para determinar valores de verdad y fue desarrollado siguiendo un proceso iterativo crítico con múltiples IAs para la resolución de problemas y la refinación del código."
+            }
     ],
     "degree": "Tecnicatura en Programación – en curso (promedio actual: 9,7/10)",
     "code": "Ver el código",

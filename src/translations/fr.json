@@ -104,6 +104,10 @@
         {
             "id": 5,
             "description": "Un site portfolio responsive pour une artiste, créé à partir d'une maquette Canva. J'ai développé les animations de zéro avec SASS, organisé son travail en sections claires et ajouté un accès direct à sa musique."
+        },
+        {
+            "id": 6,
+            "description": "Un analyseur de propositions composées et générateur de tables de vérité développé en Python. L'application traduit la logique mathématique en code exécutable en utilisant des structures fondamentales telles que des conditionnelles, des boucles itératives, des listes et des fonctions documentées avec des docstrings. Elle évalue des combinaisons binaires (1/0) pour déterminer les valeurs de vérité et a été développée selon un processus itératif critique multi-IA pour la résolution de problèmes et l'optimisation du code."
         }
     ],
     "degree": "Diplôme technique en programmation – en cours (moyenne actuelle : 9,7/10)",

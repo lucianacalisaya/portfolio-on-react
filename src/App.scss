@@ -1,32 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Codystar&family=Comfortaa:wght@300&family=DotGothic16&family=Josefin+Sans:wght@300;400&family=Satisfy&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+  --bg: #101011;
+  --surface: #19191b;
+  --surface-2: #232326;
+  --text: #f8f6f8;
+  --muted: #b9b4bd;
+  --accent: #e8afd0;
+  --accent-strong: #f4c2dd;
+  --accent-soft: #cdbbe2;
+  --border: rgba(232, 175, 208, 0.24);
+  --radius: 18px;
+  --max-width: 1180px;
 }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
-  font-family: 'Comfortaa', cursive;
-  background-color: #141414;
-  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.55;
 }
+button, a { font: inherit; }
+a { color: inherit; }
+
 .title-container {
-  background-color: #232323;
-  padding: 1rem;
+  background: transparent;
+  padding: 3.5rem 1.5rem 2rem;
   text-align: center;
-  width: 100%;
+  width: min(var(--max-width), 100%);
+  margin: 0 auto;
   &__item {
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 2px;
-    }
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    letter-spacing: .12em;
+    color: var(--text);
+  }
 }
 
-
-
- 
-  
-@media only screen and (max-width:701px) {
-    .title-container {
-        position: fixed;
-        top: 0;
-    }
+@media only screen and (max-width: 700px) {
+  .title-container { padding: 2.5rem 1.25rem 1.5rem; }
 }

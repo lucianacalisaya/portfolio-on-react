@@ -27,10 +27,6 @@ const Contact = () => {
                         <h2 className="contact__social-media">{getTranslation('contactGithub', language)}</h2>
                         <a href="https://github.com/lucianacalisaya" target="_blank" rel="noreferrer" aria-label="GitHub"><i className="fab fa-github"></i></a>
                     </div>
-                    <div className="contact__social-box">
-                        <h2 className="contact__social-media">{getTranslation('contactBehance', language)}</h2>
-                        <a href="https://www.behance.net/lucalisaya" target="_blank" rel="noreferrer" aria-label="Behance"><i className="fab fa-behance"></i></a>
-                    </div>
                 </div>
                 <div className="contact__box contact__box--cv">
                     <a className="contact__cv" href={getTranslation('downloadLink', language)} target="_blank" rel="noreferrer">

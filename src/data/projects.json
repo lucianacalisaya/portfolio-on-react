@@ -1,5 +1,17 @@
 [
     {
+        "id": 6,
+        "title": "Python Logical Proposition Analyzer and Classifier",
+        "tools": [
+            "github",
+            "python"
+        ],
+        "img": "data/Analizador-de-tablas-de-verdad-en-Python.png",
+        "link": "https://github.com/lucianacalisaya/python-logical-proposition-analyzer-and-classifier",
+        "year": "2026",
+        "alt": "Python Logical Proposition Analyzer and Classifier"
+    },
+    {
         "id": 5,
         "title": "Aini's Portfolio",
         "tools": [

@@ -1,52 +1,64 @@
 .contact {
-    &__box {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 35vh;
-    }
-    &__social-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 15rem;
-    }
-    &__social-media {
-        text-align: center;
-    }
-    a {
-        color: #ffffff;
-        i {
-        font-size: 36px;
-        padding: 10%;
-        border-radius: 100%;
-            &:hover {
-            transform: scale(1.1);
-            }
-        }
-    }
-}
-.contact__box--cv {
-    height: auto;
-    padding-bottom: 3rem;
-}
-
-.contact a.contact__cv {
+  width: min(var(--max-width), calc(100% - 3rem));
+  margin: 0 auto;
+  padding: 2rem 0 6rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  &__box {
+    display: contents;
+  }
+  &__social-box {
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .8rem;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid rgba(255,255,255,.07);
+    border-radius: var(--radius);
+    transition: transform .2s ease, border-color .2s ease;
+    &:hover { transform: translateY(-3px); border-color: var(--border); }
+  }
+  &__social-media {
+    color: var(--text);
+    font-size: 1.35rem;
+    font-weight: 400;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    i { font-size: 2rem; transition: transform .2s ease; }
+    &:hover i { transform: translateY(-2px); }
+  }
+  &__box--cv {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+  }
+  a.contact__cv {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    border-radius: 4px;
-    background-color: #d2b7e0e6;
-    color: #000;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    i {
-        font-size: 1rem;
-        padding: 0;
-    }
-    &:hover {
-        background-color: #f7bcd0;
-        transition: 0.4s;
-    }
+    gap: .5rem;
+    min-height: 46px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: #171318;
+    padding: .7rem 1.25rem;
+    transition: transform .2s ease, background .2s ease;
+    i { font-size: 1rem; }
+    &:hover { background: var(--accent-strong); transform: translateY(-2px); }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    width: calc(100% - 2rem);
+    grid-template-columns: 1fr;
+    &__box--cv { grid-column: auto; }
+    &__social-box { min-height: 140px; }
+  }
 }

@@ -104,6 +104,10 @@
         {
             "id": 5,
             "description": "A responsive portfolio website for an artist, built by turning a Canva design into code. I created the animations from scratch with SASS, organised her work into clear sections and added direct links to her music."
+        },
+        {
+            "id": 6,
+            "description": "A Python-based compound proposition analyzer and truth table generator. The application translates mathematical logic into executable code using fundamental structures like conditionals, iterative loops, lists, and documented functions with docstrings. It evaluates binary combinations (1/0) to determine truth values and was developed following a critical multi-AI iterative process for problem-solving and code refinement."
         }
     ],
     "degree": "Technical Degree in Programming – in progress (current average: 9.7/10)",
