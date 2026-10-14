@@ -1,8 +1,54 @@
 [
     {
+        "id": 5,
+        "title": "Aini's Portfolio",
+        "tools": [
+            "github",
+            "html5",
+            "sass"
+        ],
+        "img": "data/aini-portfolio.gif",
+        "link": "https://lucianacalisaya.github.io/aini-portfolio/",
+        "year": "2025",
+        "alt": "Aini's portfolio tour"
+    },
+    {
+        "id": 4,
+        "title": "Next.js Dashboard",
+        "tools": [
+            "github",
+            "html5",
+            "typescript",
+            "tailwind-css"
+        ],
+        "img": "data/acme-nextjs.gif",
+        "link": "https://nextjs-nohsp2x9r-lucianas-projects-f8fd3d49.vercel.app/",
+        "year": "2024",
+        "alt": "NextJs project tour"
+    },
+    {
+        "id": 3,
+        "title": "ArmyDive",
+        "tools": [
+            "github",
+            "html5",
+            "sass",
+            "react"
+        ],
+        "img": "data/armydive-process.gif",
+        "link": "https://armydive.netlify.app/",
+        "year": "2022",
+        "alt": "ArmyDive shopping process simulation"
+    },
+    {
         "id": 1,
         "title": "Blossom Weddings",
-        "tools": ["github", "html5", "css3-alt", "bootstrap"],
+        "tools": [
+            "github",
+            "html5",
+            "css3-alt",
+            "bootstrap"
+        ],
         "img": "data/blossom-weddings.gif",
         "link": "https://blossomweddings.netlify.app/",
         "year": "2020",
@@ -11,37 +57,13 @@
     {
         "id": 2,
         "title": "Reservando",
-        "tools": ["behance", "adobe"],
+        "tools": [
+            "behance",
+            "adobe"
+        ],
         "img": "data/reservando.png",
         "link": "https://xd.adobe.com/view/da64dee6-eb2d-4359-9527-b73715f4694a-8f37/?fullscreen",
         "year": "2020",
-        "alt": "Reservando protoype"
-    },
-    {
-        "id": 3,
-        "title": "ArmyDive",
-        "tools": ["github", "html5", "sass", "react"],
-        "img": "data/armydive-process.gif",
-        "link": "https://armydive.netlify.app/",
-        "year": "2022",
-        "alt": "ArmyDive shopping process simulation"
-    },
-    {
-        "id": 4,
-        "title":"NextJs project",
-        "tools": ["github","html5","typescript", "tailwind-css"],
-        "img": "data/acme-nextjs.gif",
-        "link": "https://nextjs-nohsp2x9r-lucianas-projects-f8fd3d49.vercel.app/",
-        "year":"2024",
-        "alt":"NextJs project tour"
-    },
-    {
-        "id": 5,
-        "title":"Aini's Portofolio",
-        "tools": ["github","html5","sass"],
-        "img": "data/aini-portfolio.gif",
-        "link": "https://lucianacalisaya.github.io/aini-portfolio/",
-        "year":"2025",
-        "alt":"Aini's portfolio tour"
+        "alt": "Reservando prototype"
     }
 ]

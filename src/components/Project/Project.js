@@ -3,7 +3,7 @@ import { getTranslation } from '../../services/utils';
 import React from 'react';
 
 
-const Project = ({ id, title, description, tools, img, link, language }) => {
+const Project = ({ id, title, tools, img, alt, link, repo, language }) => {
 
     const descriptionText = getTranslation('projectsDescription', language).find(projectsDescription => projectsDescription.id === id)?.description || '';
 
@@ -15,7 +15,7 @@ const Project = ({ id, title, description, tools, img, link, language }) => {
             </div>
             <div className='project__grid'>
                 <div className='project__imagebox'>
-                    <img className='project__image' src={img} alt='prueba' />
+                    <img className='project__image' src={img} alt={alt} />
                 </div>
             </div>
             <div className='project__description'>
@@ -25,12 +25,17 @@ const Project = ({ id, title, description, tools, img, link, language }) => {
                 </div>
                 <ul className='project__description-tools'>
                     {tools.map(tool => (
-                        <li key={tool}><i className={`fab fa-${tool}`} /></li>
+                        <li key={tool}><i className={`fab fa-${tool}`} aria-label={tool} role='img' /></li>
                     ))}
                 </ul>
                 <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>
                     {getTranslation('visit', language)}
                 </a>
+                {repo && (
+                    <a href={repo} target='_blank' rel='noreferrer' className='project__description-link'>
+                        {getTranslation('code', language)}
+                    </a>
+                )}
             </div>
         </div>
     );

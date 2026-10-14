@@ -1,140 +1,120 @@
-
-
+{
+    "home": "Home",
+    "resume": "Resume",
+    "projects": "Projects",
+    "hello": "Hello, I am",
+    "profession": "Junior Front-End Developer",
+    "text1": "I build responsive, user-friendly websites with HTML, CSS, JavaScript, React and Next.js. I have been drawn to technology since I was young, and I enjoy turning designs and ideas into clear, working interfaces.",
+    "text2": "I am organised, reliable and transparent in the way I work, and I learn best in a team. Before moving into development full time, I spent over two years as a web development tutor, reviewing students' code and helping them ship their first responsive websites.",
+    "text3": "I am currently studying for a Technical Degree in Programming and I am looking for junior front-end opportunities, with a focus on Sweden. I am open to full-time roles, internships, remote work and freelance projects.",
+    "button": "Let's talk!",
+    "check": "Check out my",
+    "resumeTitle": "My Resume",
+    "position": "Junior Front-End Developer",
+    "location": "Based in France, Argentine residency – flexible to work in any time zone",
+    "availability": "Availability",
+    "availabilityTime": "Full-time or part-time",
+    "lookingFor": "Looking for",
+    "lookingForPositions": "Junior front-end roles in Sweden / remote positions / internships / freelance",
+    "downloadLink": "data/2026-calisaya-cv-eng.pdf",
+    "download": "Download PDF",
+    "tech": "Technical skills",
+    "frontend": "Front-End Development",
+    "responsive": "Responsive design & accessibility",
+    "frameworks": "Styling & Frameworks",
+    "tools": "Tools & Platforms",
+    "ux-ui": "UX/UI principles",
+    "skills": "Skills",
+    "languages": "Languages",
+    "spanish": "Spanish: Native",
+    "english": "English: Advanced (C1)",
+    "portuguese": "Portuguese: Basic (A2)",
+    "french": "French: Intermediate (B1 - currently improving)",
+    "background": "background",
+    "cambridgeLevel": "level B2",
+    "studies": "studies",
+    "certifications": "certifications",
+    "webDev": "Web development",
+    "workExp": "work experience",
+    "workTitle": "Web development Tutor",
+    "workDescription1": "Guided beginner students through web development fundamentals (HTML, CSS, responsive design).",
+    "workDescription2": "Reviewed and corrected student code, identifying errors and suggesting improvements.",
+    "workDescription3": "Provided personalized follow-up and academic support to ensure consistent progress.",
+    "workDescription4": "Answered technical, platform-related, and course questions in real time and asynchronously.",
+    "workDescription5": "Assisted students in developing and presenting a fully responsive website as a final project within a 2.5-month timeline.",
+    "workDescription6": "Occasionally prepared class materials and explanations to clarify complex concepts.",
+    "workDescription7": "Offered motivational and emotional support throughout the learning process.",
+    "work2Title": "Cashier/Customer Service",
+    "work2TitleTime": "Present",
+    "work2Description1": "Managed cash register operations, refunds, and restocking.",
+    "work2Description2": "Acted as main point of contact for resolving checkout-related issues.",
+    "work2Description3": "Assisted coworkers in handling customer service situations.",
+    "work2Description4": "Recognized for efficiency, reliability, and problem-solving skills.",
+    "work2Description5": "Used bilingual communication (Spanish–English) in a fast-paced environment.",
+    "volunteerExp": "Volunteer Experience",
+    "volunteerTitle": "Volunteer",
+    "volunteerDescription1": "Regular volunteer across multiple community programs.",
+    "volunteerDescription2": "Communication team member:",
+    "volunteerDescription3": "Create and publish content for the organization’s website.",
+    "volunteerDescription4": "Manage and update the Facebook page.",
+    "volunteerDescription5": "Participate in launching and developing the Instagram account.",
+    "volunteerDescription6": "Design visual content, record videos, and assist with basic reel editing.",
+    "volunteerDescription7": "Community support roles:",
+    "volunteerDescription8": "Serve breakfast and manage daily logistics.",
+    "volunteerDescription9": "Register individuals for shower access and organize service flow.",
+    "volunteerDescription10": "Women’s support program (Accueil des Femmes):",
+    "volunteerDescription11": "Support women in vulnerable situations.",
+    "volunteerDescription12": "Act as French–Spanish interpreter between staff and beneficiaries.",
+    "volunteer2Title": "Sports Events",
+    "volunteer2Description1": "Volunteer guide and route marshal for running events, including 24H Saint Pierre.",
+    "volunteer2Description2": "Provided orientation and ensured participants followed correct routes.",
+    "volunteer2Description3": "Selected again for upcoming editions and applied for organizational roles beyond signalization.",
+    "qualities": "Qualities",
+    "quality1": "Kind",
+    "quality2": "Helpful",
+    "quality3": "Organised",
+    "quality4": "A quick learner",
+    "quality5": "Good at math and solving problems",
+    "keystone": "Cashier at Keystone Resort - Work&Travel program in the USA. ",
+    "month": "April",
+    "funFact": "Fun fact, I was the most efficient cashier for one month straight.",
+    "descriptionResume": "Profile",
+    "descriptionResume1": "Junior Front-End Developer with a strong background in web education, user support, and digital communication.",
+    "descriptionResume2": "Experience working with HTML, CSS, JavaScript, React, and Next.js, as well as collaborating on real-world projects in educational and non-profit environments. Known for being organized, proactive, and a fast learner, with strong communication skills and a human-centered approach to technology.",
+    "visit": "Visit the project",
+    "aboutProject": "About the project",
+    "projectsTitle": "Selected Projects",
+    "projectsDescription": [
         {
-            "home": "Home",
-            "resume": "Resume",
-            "projects": "Projects",
-
-            "hello": "Hello, I am",
-            "profession": "Front-end Developer",
-            "text1": "I am passionate about technology since I was young, I also always loved english, maths and science. I love putting together webs through coding so on the projects I did I like to you my skills to create responsive and functionally websites.",
-            "text2": "In terms of how I am when I work, I commit to what I have to do, I like to be organised and transparent as I can be, also, I thrive team work very much, I think it's a nice way to get knowledge an improve. ",
-            "text3": "I believe I have much to give and learn so I'm open to new challenges.",
-            "button": "Let's talk!",
-            "check": "Check out my",
-
-            "resumeTitle": "My Resume",
-            "position": "Junior Front-End Developer",
-            "location": "Based in France, Argentine residency – flexible to work in any time zone",
-            "availability": "Availability",
-            "availabilityTime": "Full-time or part-time",
-            "lookingFor": "Looking for",
-            "lookingForPositions": "Remote positions / internships / freelance opportunities",
-            "downloadLink": "data/2026-calisaya-cv-eng.pdf",
-            "download": "Download PDF",
-            
-            "tech":"Technical skills",
-            "frontend": "Front-End Development",
-            "responsive":"Responsive design & accessibility",
-            "frameworks": "Styling & Frameworks",
-            "tools": "Tools & Platforms",
-            "ux-ui": "UX/UI principles",
-
-            "skills": "Skills",
-            "languages": "Languages",
-            "spanish": "Spanish: Native",
-            "english": "English: Advanced (C1)",
-            "portuguese": "Portuguese: Basic (A2)",
-            "french": "French: Intermediate (B1 - currently improving)",
-
-
-            "background": "background",
-            "cambridgeLevel": "level B2",
-            "studies": "studies",
-            "certifications": "certifications",
-
-            "webDev": "Web development",
-            "workExp": "work experience",
-            "workTitle": "Web development Tutor",
-            "workDescription1": "Guided beginner students through web development fundamentals (HTML, CSS, responsive design).",
-            "workDescription2": "Reviewed and corrected student code, identifying errors and suggesting improvements.",
-            "workDescription3": "Provided personalized follow-up and academic support to ensure consistent progress.",
-            "workDescription4": "Answered technical, platform-related, and course questions in real time and asynchronously.",
-            "workDescription5": "Assisted students in developing and presenting a fully responsive website as a final project within a 2.5-month timeline.",
-            "workDescription6": "Occasionally prepared class materials and explanations to clarify complex concepts.",
-            "workDescription7": "Offered motivational and emotional support throughout the learning process.",
-
-            "work2Title": "Cashier/Customer Service",
-            "work2TitleTime": "Present",
-            "work2Description1": "Managed cash register operations, refunds, and restocking.",
-            "work2Description2": "Acted as main point of contact for resolving checkout-related issues.",
-            "work2Description3": "Assisted coworkers in handling customer service situations.",
-            "work2Description4": "Recognized for efficiency, reliability, and problem-solving skills.",
-            "work2Description5": "Used bilingual communication (Spanish–English) in a fast-paced environment.",
-
-            "volunteerExp": "Volunteer Experience",
-            "volunteerTitle": "Volunteer",
-            "volunteerDescription1":"Regular volunteer across multiple community programs.",
-            "volunteerDescription2":"Communication team member:",
-            "volunteerDescription3":"Create and publish content for the organization’s website.",
-            "volunteerDescription4":"Manage and update the Facebook page.",
-            "volunteerDescription5":"Participate in launching and developing the Instagram account.",
-            "volunteerDescription6":"Design visual content, record videos, and assist with basic reel editing.",
-            "volunteerDescription7":"Community support roles:",
-            "volunteerDescription8":"Serve breakfast and manage daily logistics.",
-            "volunteerDescription9":"Register individuals for shower access and organize service flow.",
-            "volunteerDescription10":"Women’s support program (Accueil des Femmes):",
-            "volunteerDescription11":"Support women in vulnerable situations.",
-            "volunteerDescription12":"Act as French–Spanish interpreter between staff and beneficiaries.",  
-            "volunteerDescription13":"Internal Digitalization Project", 
-            "volunteerDescription14":"Co-developing an internal application to manage shower access and user history.",  
-            "volunteerDescription15":"Migrating records from a paper-based system to a digital solution.",  
-            "volunteerDescription16":"Collaborating on application structure, logic, and server setup.",  
-            "volunteerDescription17":"Improving data organization, traceability, and operational efficiency.",    
-                              
-            "volunteer2Title": "Sports Events",
-            "volunteer2Description1":"Volunteer guide and route marshal for running events, including 24H Saint Pierre.", 
-            "volunteer2Description2":"Provided orientation and ensured participants followed correct routes.",  
-            "volunteer2Description3":"Selected again for upcoming editions and applied for organizational roles beyond signalization.",  
-
-            "qualities": "Qualities",
-            "quality1": "Kind",
-            "quality2": "Helpful",
-            "quality3": "Organised",
-            "quality4": "A quick learner",
-            "quality5": "Good at math and solving problems",
-            "keystone": "Cashier at Keystone Resort - Work&Travel program in the USA. ",
-            "month": "April",
-            "funFact": "Fun fact, I was the most efficient cashier for one month straight.",
-            "descriptionResume": "Profile",
-            "descriptionResume1": "Junior Front-End Developer with a strong background in web education, user support, and digital communication.",
-            "descriptionResume2": "Experience working with HTML, CSS, JavaScript, React, and Next.js, as well as collaborating on real-world projects in educational and non-profit environments. Known for being organized, proactive, and a fast learner, with strong communication skills and a human-centered approach to technology.",
-
-
-
-
-
-
-
-
-
-
-            "visit": "Visit the project",
-            "aboutProject": "About the project",
-            "projectsTitle": "My Projects",
-            "projectsDescription": [
-                {
-                    "id": 1,
-                    "description": "Blossom weddings is about a fictional wedding planner company. As the goal is to have all the information in one place, the landing page format seemed perfect for the occasion. It has two different designs for desktop and mobile, it also adapts itself for tablets and all kind of screens"
-                },
-                {
-                    "id": 2,
-                    "description":  "Reservando purpose is to help gluten intolerant people to find more places where they can eat without worrying. It has as primary idea the capacity to check all restaurants near you and to book a table when you are in a hurry."
-                },
-                {
-                    "id": 3,
-                    "description": "Armydive is fictional site where you can find all BTS merch, albums, eps, etc. An easier way to find everything related to BTS, an e-commerce just for Army, the fanbase of the k-pop group. The site is full responsive and Firebase was used for the backend part of the project."
-                },
-                {
-                    "id": 4,
-                    "description": "This project is a full-stack dashboard application built as part of the official Next.js learning course. It includes authentication, a protected dashboard, and invoice management features, demonstrating core concepts such as routing, data handling, and server-side rendering. The goal of this project was to apply and showcase practical skills in building real-world applications, including user authentication, dynamic data rendering, and structured UI development. It reflects my ability to work with modern web technologies and implement scalable, production-like features."
-                },
-                {
-                    "id": 5,
-                    "description": "This project is a web-based artistic portfolio built to translate a Canva design into a responsive and interactive experience. It focuses on custom-built animations created from scratch to enhance usability and visual storytelling. The platform organizes the artist’s work and integrates direct access to her music, combining performance, design, and functionality."
-                }
-
-            ]
+            "id": 1,
+            "description": "Blossom Weddings is a landing page for a fictional wedding planning company, designed to keep all the information in one place. I built separate desktop and mobile layouts, and the page also adapts to tablets and other screen sizes."
+        },
+        {
+            "id": 2,
+            "description": "Reservando is a UX/UI prototype designed in Adobe XD to help people with gluten intolerance find places where they can eat without worrying. Users can see nearby restaurants and book a table quickly when they are in a hurry."
+        },
+        {
+            "id": 3,
+            "description": "ArmyDive is a fictional e-commerce site for BTS merchandise and albums. I built it with React and SASS, made it fully responsive, and used Firebase for the backend."
+        },
+        {
+            "id": 4,
+            "description": "A full-stack dashboard built with Next.js, TypeScript and Tailwind CSS while following the official Next.js learning course. It includes authentication, a protected dashboard and invoice management, and it helped me practise routing, data fetching and server-side rendering."
+        },
+        {
+            "id": 5,
+            "description": "A responsive portfolio website for an artist, built by turning a Canva design into code. I created the animations from scratch with SASS, organised her work into clear sections and added direct links to her music."
         }
-
-
+    ],
+    "degree": "Technical Degree in Programming – in progress (current average: 9.7/10)",
+    "code": "View the code",
+    "contactTitle": "Contact",
+    "contactEmail": "Send me an email",
+    "contactLinkedin": "Connect on LinkedIn",
+    "contactGithub": "See my code on GitHub",
+    "contactBehance": "Follow me on Behance",
+    "contactCv": "Download my CV",
+    "programming": "Programming",
+    "pythonLevel": "Python (basics – currently learning)",
+    "aiTools": "AI coding assistants (learning and prototyping)"
+}

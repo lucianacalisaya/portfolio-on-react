@@ -23,6 +23,17 @@
         }
         &__button {
             margin: 3rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            &--secondary {
+                background-color: transparent !important;
+                color: #d2b7e0 !important;
+                &:hover {
+                    background-color: #f7bcd0 !important;
+                    color: #000 !important;
+                }
+            }
             &--link {
                 border-radius: 4px;
                 background-color: #d2b7e0e6;

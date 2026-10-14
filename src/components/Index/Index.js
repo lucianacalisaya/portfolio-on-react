@@ -20,12 +20,13 @@ const Index = (context) => {
                 </div>
                 <div className="home__button">
                     <Link className="home__button--link" to='/contact'>{ getTranslation('button', language)}</Link>
+                    <a className="home__button--link home__button--secondary" href={getTranslation('downloadLink', language)} target="_blank" rel="noreferrer">{ getTranslation('contactCv', language)}</a>
                 </div>
                 <div className="home__social">
                     <p>{getTranslation('check', language)}</p>
                     <ul className="home__list">
-                        <li><a href='https://github.com/lucianacalisaya'><i class="fab fa-github"></i></a></li>
-                        <li><a href='https://www.linkedin.com/in/luciana-calisaya/'><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href='https://github.com/lucianacalisaya' aria-label="GitHub"><i className="fab fa-github"></i></a></li>
+                        <li><a href='https://www.linkedin.com/in/luciana-calisaya/' aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>

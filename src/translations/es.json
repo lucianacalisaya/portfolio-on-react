@@ -2,32 +2,28 @@
     "home": "Inicio",
     "resume": "CV",
     "projects": "Proyectos",
-
     "hello": "Hola, soy",
-    "profession": "Desarrolladora Front-end",
-    "text1": "Soy apasionada por la tecnología desde que era chica, también amo el idioma inglés, la matemática y la ciencia. Amo armar las páginas desde el código y es por que en los proyectos que he realizado me gusta mostrar mis habilidades para crear contenido responsive y funcional.",
-    "text2": "En términos de cómo soy en el trabajo me identifico como una personada organizada y transparente, además me siento entusiasta hacia el trabajo en equipo ya que creo que es una excelente forma de nutrirse de conocimiendo y mejorar.",
-    "text3": "Creo que tengo mucho potencial por lo que estoy abierta a nuevos desafíos.",
-    "button": "Hablemos!",
+    "profession": "Desarrolladora Front-End Junior",
+    "text1": "Creo sitios web responsive y fáciles de usar con HTML, CSS, JavaScript, React y Next.js. Me apasiona la tecnología desde chica y disfruto convertir diseños e ideas en interfaces claras y funcionales.",
+    "text2": "Soy organizada, responsable y transparente en mi forma de trabajar, y aprendo mejor en equipo. Antes de dedicarme al desarrollo, trabajé más de dos años como tutora de desarrollo web, revisando el código de estudiantes y acompañándolos en su primer sitio responsive.",
+    "text3": "Actualmente estudio la Tecnicatura en Programación y busco oportunidades como desarrolladora front-end junior, con foco en Suecia. Estoy abierta a puestos de tiempo completo, pasantías, trabajo remoto y proyectos freelance.",
+    "button": "¡Hablemos!",
     "check": "Echa un vistazo a mis",
-
     "resumeTitle": "Mi Curriculum",
     "position": "Desarrolladora Front-End Junior",
     "location": "Francia, residencia argentina – disponible para trabajar en cualquier zona horaria",
     "availability": "Disponibilidad",
     "availabilityTime": "Tiempo completo o tiempo parcial",
     "lookingFor": "Puesto deseado",
-    "lookingForPositions": "Puestos remotos / pasantías / oportunidades freelance",
-    "downloadLink":"data/2026-calisaya-cv-spa.pdf",
+    "lookingForPositions": "Puestos front-end junior en Suecia / puestos remotos / pasantías / freelance",
+    "downloadLink": "data/2026-calisaya-cv-spa.pdf",
     "download": "Descargar PDF",
-    
-    "tech":"Habilidades técnicas",
+    "tech": "Habilidades técnicas",
     "frontend": "Desarrollo Front-end",
-    "responsive":"Diseño responsive y accesibilidad",
+    "responsive": "Diseño responsive y accesibilidad",
     "frameworks": "Estilos y Frameworks",
     "tools": "Herramientas y Plataformas",
     "ux-ui": "Principios UX/UI",
-
     "skills": "Habilidades",
     "languages": "Idiomas",
     "spanish": "Español: Nativo",
@@ -39,7 +35,6 @@
     "studies": "Estudios",
     "certifications": "certificaciones",
     "webDev": "Desarrollo Web",
-
     "workExp": "Experiencia laboral",
     "workTitle": "Tutora de desarrollo web",
     "workDescription1": "Acompañé a estudiantes principiantes en los fundamentos del desarrollo web (HTML, CSS y diseño responsive).",
@@ -49,40 +44,31 @@
     "workDescription5": "Asistí a los estudiantes en el desarrollo y presentación de un sitio web totalmente responsive como proyecto final en un plazo aproximado de 2 meses y medio.",
     "workDescription6": "Preparé ocasionalmente material de clase y explicaciones para clarificar conceptos complejos.",
     "workDescription7": "Brindé apoyo motivacional y emocional durante el proceso de aprendizaje.",
-
     "work2Title": "Cajera/Servicio al cliente",
     "work2TitleTime": "Presente",
     "work2Description1": "Gestioné operaciones de caja, reembolsos y reposición de productos.",
     "work2Description2": "Actué como punto principal de contacto para la resolución de problemas en el área de cajas.",
     "work2Description3": "Asistí a mis compañeras en situaciones de atención al cliente.",
     "work2Description4": "Fui reconocida por mi eficiencia, confiabilidad y capacidad de resolución de problemas.",
-    "work2Description5": "Utilicé comunicación bilingüe (español–inglés) en un entorno de trabajo dinámico y exigente.",    
-
+    "work2Description5": "Utilicé comunicación bilingüe (español–inglés) en un entorno de trabajo dinámico y exigente.",
     "volunteerExp": "Experiencia voluntaria",
     "volunteerTitle": "Volunteer",
-    "volunteerDescription1":"Voluntaria regular en múltiples programas comunitarios.",
-    "volunteerDescription2":"Miembro del equipo de comunicación:",
-    "volunteerDescription3":"Creación y publicación de contenido para el sitio web de la organización.",
-    "volunteerDescription4":"Gestión y actualización de la página de Facebook.",
-    "volunteerDescription5":"Participación en el lanzamiento y desarrollo de la cuenta de Instagram.",
-    "volunteerDescription6":"Diseño de contenido visual, grabación de videos y apoyo en la edición básica de reels.",
-    "volunteerDescription7":"Roles de apoyo comunitario:",
-    "volunteerDescription8":"Servicio de desayuno y gestión de la logística diaria.",
-    "volunteerDescription9":"Inscripción de personas para el acceso a duchas y organización del flujo del servicio.",
-    "volunteerDescription10":"Programa de apoyo a mujeres (Accueil des Femmes):",
-    "volunteerDescription11":"Acompañamiento a mujeres en situación de vulnerabilidad.",
-    "volunteerDescription12":"Intérprete francés–español entre el equipo y las personas beneficiarias.",  
-    "volunteerDescription13":"Proyecto de Digitalización Interna", 
-    "volunteerDescription14":"Co-desarrollo de una aplicación interna para la gestión de duchas e historial de usuarios.",  
-    "volunteerDescription15":"Migración de registros en papel a una solución digital.",  
-    "volunteerDescription16":"Colaboración en la estructura, lógica de la aplicación y configuración del servidor.",  
-    "volunteerDescription17":"Mejora de la organización de datos, trazabilidad y eficiencia operativa.",  
-
+    "volunteerDescription1": "Voluntaria regular en múltiples programas comunitarios.",
+    "volunteerDescription2": "Miembro del equipo de comunicación:",
+    "volunteerDescription3": "Creación y publicación de contenido para el sitio web de la organización.",
+    "volunteerDescription4": "Gestión y actualización de la página de Facebook.",
+    "volunteerDescription5": "Participación en el lanzamiento y desarrollo de la cuenta de Instagram.",
+    "volunteerDescription6": "Diseño de contenido visual, grabación de videos y apoyo en la edición básica de reels.",
+    "volunteerDescription7": "Roles de apoyo comunitario:",
+    "volunteerDescription8": "Servicio de desayuno y gestión de la logística diaria.",
+    "volunteerDescription9": "Inscripción de personas para el acceso a duchas y organización del flujo del servicio.",
+    "volunteerDescription10": "Programa de apoyo a mujeres (Accueil des Femmes):",
+    "volunteerDescription11": "Acompañamiento a mujeres en situación de vulnerabilidad.",
+    "volunteerDescription12": "Intérprete francés–español entre el equipo y las personas beneficiarias.",
     "volunteer2Title": "Eventos deportivos",
-    "volunteer2Description1":"Voluntaria como guía y señalizadora en carreras, incluyendo 24H Saint Pierre.", 
-    "volunteer2Description2":"Orientación a los participantes y aseguramiento del correcto recorrido.",  
-    "volunteer2Description3":"Seleccionada nuevamente para próximas ediciones y postulada para roles organizativos más allá de la señalización.", 
-
+    "volunteer2Description1": "Voluntaria como guía y señalizadora en carreras, incluyendo 24H Saint Pierre.",
+    "volunteer2Description2": "Orientación a los participantes y aseguramiento del correcto recorrido.",
+    "volunteer2Description3": "Seleccionada nuevamente para próximas ediciones y postulada para roles organizativos más allá de la señalización.",
     "qualities": "Cualidades",
     "quality1": "Amable",
     "quality2": "Solidaria",
@@ -95,30 +81,40 @@
     "descriptionResume": "Perfil",
     "descriptionResume1": "Desarrolladora Front-End junior con una sólida base en educación web, soporte a usuarios y comunicación digital.",
     "descriptionResume2": "Experiencia trabajando con HTML, CSS, JavaScript, React y Next.js, así como colaborando en proyectos reales en entornos educativos y sin fines de lucro. Me caracterizo por ser organizada, proactiva y aprender rápido, con fuertes habilidades de comunicación y un enfoque centrado en las personas dentro de la tecnología.",
-
     "visit": "Visita el proyecto",
     "aboutProject": "Sobre el proyecto",
-    "projectsTitle": "Mis Projectos",
+    "projectsTitle": "Proyectos destacados",
     "projectsDescription": [
         {
             "id": 1,
-            "description": "Blossom Weddings trata sobre una empresa ficticia de planificación de bodas. Como el objetivo es tener toda la información en un solo lugar, el formato de landing page me pareció perfecto para la ocasión. Tiene dos diseños diferentes para escritorio y móvil, también se adapta a tablets y todo tipo de pantallas."
+            "description": "Blossom Weddings es una landing page para una empresa ficticia de organización de bodas, pensada para reunir toda la información en un solo lugar. Creé diseños separados para escritorio y móvil, y la página también se adapta a tablets y otros tamaños de pantalla."
         },
         {
             "id": 2,
-            "description": "Reservando tiene como objetivo ayudar a las personas intolerantes al gluten a encontrar más lugares donde poder comer sin preocupaciones. Tiene como idea principal la capacidad de consultar todos los restaurantes cercanos a ti y reservar una mesa cuando tengas prisa."
+            "description": "Reservando es un prototipo UX/UI diseñado en Adobe XD para ayudar a las personas con intolerancia al gluten a encontrar lugares donde comer sin preocuparse. Permite ver los restaurantes cercanos y reservar una mesa rápidamente."
         },
         {
             "id": 3,
-            "description": "Armydive es un sitio ficticio donde puedes encontrar todo el merchandising, álbumes, eps, etc. de BTS. Una forma más fácil de encontrar todo lo relacionado con BTS, un e-commerce solo para Army, la base de fans del grupo de k-pop. El sitio es full responsive y se utilizó Firebase para la parte backend del proyecto."
+            "description": "ArmyDive es un e-commerce ficticio de merchandising y álbumes de BTS. Lo desarrollé con React y SASS, es totalmente responsive y usa Firebase para el backend."
         },
         {
             "id": 4,
-            "description": "Este proyecto es una aplicación web tipo dashboard full-stack desarrollada como parte del curso oficial de Next.js. Incluye autenticación, un panel protegido y gestión de facturas, demostrando conceptos clave como enrutamiento, manejo de datos y renderizado del lado del servidor. El objetivo fue aplicar y mostrar habilidades prácticas en la construcción de aplicaciones reales, incluyendo autenticación de usuarios, renderizado dinámico de datos y desarrollo de interfaces estructuradas. Refleja mi capacidad para trabajar con tecnologías web modernas e implementar funcionalidades escalables."
+            "description": "Un dashboard full-stack creado con Next.js, TypeScript y Tailwind CSS siguiendo el curso oficial de Next.js. Incluye autenticación, un panel protegido y gestión de facturas, y me permitió practicar enrutamiento, obtención de datos y renderizado del lado del servidor."
         },
         {
             "id": 5,
-            "description": "Este proyecto es un portfolio artístico web desarrollado para traducir un diseño creado en Canva en una experiencia responsive e interactiva. Se centra en animaciones personalizadas, desarrolladas desde cero, para mejorar la usabilidad y el storytelling visual. La plataforma organiza el trabajo de la artista e integra acceso directo a su música, combinando rendimiento, diseño y funcionalidad."
+            "description": "Un sitio web responsive para una artista, creado a partir de un diseño en Canva. Desarrollé las animaciones desde cero con SASS, organicé su trabajo en secciones claras e incluí acceso directo a su música."
         }
-    ]
+    ],
+    "degree": "Tecnicatura en Programación – en curso (promedio actual: 9,7/10)",
+    "code": "Ver el código",
+    "contactTitle": "Contacto",
+    "contactEmail": "Envíame un email",
+    "contactLinkedin": "Conectemos en LinkedIn",
+    "contactGithub": "Mira mi código en GitHub",
+    "contactBehance": "Sígueme en Behance",
+    "contactCv": "Descargar mi CV",
+    "programming": "Programación",
+    "pythonLevel": "Python (nociones básicas – aprendiendo)",
+    "aiTools": "Asistentes de IA para programar (aprendizaje y prototipos)"
 }

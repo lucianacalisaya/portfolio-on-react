@@ -51,6 +51,13 @@ const Resume = () => {
                         </div>
                         <br/>
                         <div className="cv__fieldset">
+                            <h4 className="cv__h4">{getTranslation('programming', language)}</h4>
+                            <ul className="cv__list cv__list--skills">
+                                <li>{getTranslation('pythonLevel', language)}</li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <div className="cv__fieldset">
                             <h4 className="cv__h4">{getTranslation('frameworks', language)}</h4>
                             <ul className="cv__list cv__list--skills">
                                 <li>TailwindCSS</li>
@@ -66,6 +73,7 @@ const Resume = () => {
                                 <li>Node JS</li>
                                 <li>Adobe XD</li>
                                 <li>Figma</li>
+                                <li>{getTranslation('aiTools', language)}</li>
                             </ul>
                         </div>
                         <br/>
@@ -95,6 +103,7 @@ const Resume = () => {
                         <div className="cv__fieldset">
                             <h4 className="cv__h4">{getTranslation('studies', language)}</h4>
                             <ul className='cv__list'>
+                                <li>{getTranslation('degree', language)}</li>
                                 <li>Colegio Nacional de Ushuaia - Bac Social Science</li>
                                 <li>Cambridge First Certificate <span className="cv__highlight">{getTranslation('cambridgeLevel', language)}</span></li>
                             </ul>
@@ -183,14 +192,6 @@ const Resume = () => {
                                 </ul>
                             </li>
                             <li>{getTranslation('volunteerDescription12', language)}</li>
-                            <li>{getTranslation('volunteerDescription13', language)}
-                                <ul className='cv__list--indent'>
-                                    <li>{getTranslation('volunteerDescription14', language)}</li>
-                                    <li>{getTranslation('volunteerDescription15', language)}</li>
-                                    <li>{getTranslation('volunteerDescription16', language)}</li>
-                                    <li>{getTranslation('volunteerDescription17', language)}</li>
-                                </ul>
-                            </li>
                         </ul>
                     </div>
                     

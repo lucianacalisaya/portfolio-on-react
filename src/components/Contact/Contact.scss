@@ -27,3 +27,26 @@
         }
     }
 }
+.contact__box--cv {
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.contact a.contact__cv {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 4px;
+    background-color: #d2b7e0e6;
+    color: #000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    i {
+        font-size: 1rem;
+        padding: 0;
+    }
+    &:hover {
+        background-color: #f7bcd0;
+        transition: 0.4s;
+    }
+}

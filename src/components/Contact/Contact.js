@@ -1,73 +1,45 @@
 import './Contact.scss';
-import {useContext} from 'react';
-import { LanguageContext } from '../../context/LanguageContext'
-
-
+import { useContext } from 'react';
+import { LanguageContext } from '../../context/LanguageContext';
+import { getTranslation } from '../../services/utils';
 
 const Contact = () => {
     const { language } = useContext(LanguageContext);
 
-    if (language === 'es') {
-        return (
-            <main>
-                <div className='title-container'>
-                    <h1 className='title-container__item'>Contacto</h1>
-                </div>
-                <div class="contact">
-                    <div class="contact__box">
-                        <div class="contact__social-box">
-                            <h2 class="contact__social-media">Enviame un email</h2>
-                            <a href = "mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a>
-                        </div>
-                        <div class="contact__social-box">
-                            <h2 class="contact__social-media">Agregame en LinkedIn</h2>
-                            <a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="contact__box">
-                        <div class="contact__social-box">
-                            <h2 class="contact__social-media">Mirá mis códigos en Github</h2>
-                            <a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="contact__social-box">
-                            <h2 class="contact__social-media">Seguime en Behance</h2>
-                            <a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        )
-    }
-
     return (
         <main>
             <div className='title-container'>
-                <h1 className='title-container__item'>Contact</h1>
+                <h1 className='title-container__item'>{getTranslation('contactTitle', language)}</h1>
             </div>
-            <div class="contact">
-                <div class="contact__box">
-                    <div class="contact__social-box">
-                        <h2 class="contact__social-media">Send Me an Email</h2>
-                        <a href = "mailto: lmc.calisaya@gmail.com"><i class="far fa-envelope"></i></a>
+            <div className="contact">
+                <div className="contact__box">
+                    <div className="contact__social-box">
+                        <h2 className="contact__social-media">{getTranslation('contactEmail', language)}</h2>
+                        <a href="mailto:lmc.calisaya@gmail.com" aria-label="Email"><i className="far fa-envelope"></i></a>
                     </div>
-                    <div class="contact__social-box">
-                        <h2 class="contact__social-media">Add me on LinkedIn</h2>
-                        <a href="https://www.linkedin.com/in/luciana-calisaya/"><i class="fab fa-linkedin-in"></i></a>
+                    <div className="contact__social-box">
+                        <h2 className="contact__social-media">{getTranslation('contactLinkedin', language)}</h2>
+                        <a href="https://www.linkedin.com/in/luciana-calisaya/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="contact__box">
-                    <div class="contact__social-box">
-                        <h2 class="contact__social-media">See my codes on Github</h2>
-                        <a href="https://github.com/lucianacalisaya"><i class="fab fa-github"></i></a>
+                <div className="contact__box">
+                    <div className="contact__social-box">
+                        <h2 className="contact__social-media">{getTranslation('contactGithub', language)}</h2>
+                        <a href="https://github.com/lucianacalisaya" target="_blank" rel="noreferrer" aria-label="GitHub"><i className="fab fa-github"></i></a>
                     </div>
-                    <div class="contact__social-box">
-                        <h2 class="contact__social-media">Follow me Behance</h2>
-                        <a href="https://www.behance.net/lucalisaya"><i class="fab fa-behance"></i></a>
+                    <div className="contact__social-box">
+                        <h2 className="contact__social-media">{getTranslation('contactBehance', language)}</h2>
+                        <a href="https://www.behance.net/lucalisaya" target="_blank" rel="noreferrer" aria-label="Behance"><i className="fab fa-behance"></i></a>
                     </div>
+                </div>
+                <div className="contact__box contact__box--cv">
+                    <a className="contact__cv" href={getTranslation('downloadLink', language)} target="_blank" rel="noreferrer">
+                        <i className="fas fa-arrow-alt-circle-down"></i> {getTranslation('contactCv', language)}
+                    </a>
                 </div>
             </div>
         </main>
-    )
-}
+    );
+};
 
-export default Contact
+export default Contact;

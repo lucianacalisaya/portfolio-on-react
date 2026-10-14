@@ -1,34 +1,29 @@
 {
     "home": "Accueil",
     "resume": "CV",
-    "projects": "Projects",
-
-
+    "projects": "Projets",
     "hello": "Salut, je suis",
-    "profession": "Front-end Développeuse",
-    "text1": "Je suis passionnée par la technologie depuis que je suis petite, j'aime aussi la langue anglaise, les mathématiques et les sciences. J'adore assembler des pages à partir de code et c'est parce que dans les projets que j'ai réalisés j'aime montrer mes compétences pour créer du contenu responsive et fonctionnel.",
-    "text2": "Dans ma façon de travailler, je m'identifie comme une personne organisée et transparente et je suis également enthousiasmée par le travail en équipe car je considère que c'est un excellent moyen d'acquérir des connaissances et de s'améliorer.",
-    "text3": "Je pense que j'ai beaucoup de potentiel donc je suis ouvert à de nouveaux défis.",
-    "button": "Contactez moi!",
+    "profession": "Développeuse Front-End Junior",
+    "text1": "Je crée des sites web responsives et faciles à utiliser avec HTML, CSS, JavaScript, React et Next.js. La technologie me passionne depuis toute petite et j'aime transformer des maquettes et des idées en interfaces claires et fonctionnelles.",
+    "text2": "Je suis organisée, fiable et transparente dans ma façon de travailler, et j'apprends mieux en équipe. Avant de me consacrer au développement, j'ai travaillé plus de deux ans comme tutrice en développement web, en corrigeant le code des étudiants et en les accompagnant dans la création de leur premier site responsive.",
+    "text3": "Je prépare actuellement un diplôme technique en programmation et je recherche des opportunités de développeuse front-end junior, avec un intérêt particulier pour la Suède. Je suis ouverte aux postes à temps plein, aux stages, au télétravail et aux projets freelance.",
+    "button": "Contactez-moi !",
     "check": "Decouvrez mon",
-
     "resumeTitle": "Mon Curriculum",
     "position": "Développeuse Front-End Junior",
     "location": "France, résidence argentine – disponible pour travailler dans n'importe quel fuseau horaire",
     "availability": "Disponibilité",
     "availabilityTime": "Temps plein ou temps partiel",
     "lookingFor": "Poste recherché",
-    "lookingForPositions": "Stages, alternance, postes à distance ou freelance",
-    "downloadLink":"data/2026-calisaya-cv-fr.pdf",
+    "lookingForPositions": "Postes front-end junior en Suède / postes à distance / stages / freelance",
+    "downloadLink": "data/2026-calisaya-cv-fr.pdf",
     "download": "Télécharger PDF",
-    
-    "tech":"COMPÉTENCES TECHNIQUES",
+    "tech": "COMPÉTENCES TECHNIQUES",
     "frontend": "Développement Front-End",
-    "responsive":"Design responsive et accessibilité",
+    "responsive": "Design responsive et accessibilité",
     "frameworks": "Styles & Frameworks",
     "tools": "Outils & Plateformes",
     "ux-ui": "Principes UX/UI",
-
     "skills": "Compétences",
     "languages": "Langues",
     "spanish": "Espagnol: Langue Maternelle",
@@ -39,13 +34,9 @@
     "cambridgeLevel": "niveau B2",
     "studies": "Études",
     "certifications": "Certifications",
-
     "descriptionResume": "Profil",
     "descriptionResume1": "Développeuse Front-End junior avec une solide expérience en formation web, support aux utilisateurs et communication digitale.",
     "descriptionResume2": "Expérience avec HTML, CSS, JavaScript, React et Next.js, ainsi que dans la collaboration sur des projets concrets en environnements éducatifs et associatifs. Organisée, proactive et avec une grande capacité d’apprentissage, je possède de solides compétences en communication et une approche de la technologie centrée sur l’humain.",
-
-
-
     "webDev": "Développement Web",
     "workExp": "EXPÉRIENCE PROFESSIONNELLE",
     "workTitle": "Tutrice de développement web",
@@ -56,7 +47,6 @@
     "workDescription5": "Accompagnement des étudiants dans la création et la présentation d’un site web entièrement responsive comme projet final (durée approximative de 2 mois et demi).",
     "workDescription6": "Préparation occasionnelle de supports de cours et d’explications pour clarifier des notions complexes.",
     "workDescription7": "Soutien motivationnel et humain tout au long du processus d’apprentissage.",
-    
     "work2Title": "Caissière / Service Client",
     "work2TitleTime": "Présent",
     "work2Description1": "Gestion des opérations de caisse, des remboursements et du réassort.",
@@ -64,32 +54,24 @@
     "work2Description3": "Assistance aux collègues dans la gestion des situations de service client.",
     "work2Description4": "Reconnue pour mon efficacité, ma fiabilité et mes capacités de résolution de problèmes.",
     "work2Description5": "Utilisation de la communication bilingue (espagnol–anglais) dans un environnement dynamique et exigeant.",
-    
     "volunteerExp": "EXPÉRIENCE BÉNÉVOLE",
     "volunteerTitle": "Bénévole",
-    "volunteerDescription1":"Bénévole régulière dans plusieurs programmes communautaires.",
-    "volunteerDescription2":"Membre de l’équipe communication :",
-    "volunteerDescription3":"Création et publication de contenu pour le site web de l’association.",
-    "volunteerDescription4":"Gestion et mise à jour de la page Facebook.",
-    "volunteerDescription5":"Participation au lancement et au développement du compte Instagram.",
-    "volunteerDescription6":"Création de contenus visuels, captation vidéo et aide à l’édition basique de reels.",
-    "volunteerDescription7":"Missions de soutien communautaire :",
-    "volunteerDescription8":"Service du petit-déjeuner et gestion de la logistique quotidienne.",
-    "volunteerDescription9":"Inscription des bénéficiaires pour l’accès aux douches et organisation du flux.",
-    "volunteerDescription10":"Programme d’accompagnement des femmes (Accueil des Femmes) :",
-    "volunteerDescription11":"Soutien aux femmes en situation de vulnérabilité.",
-    "volunteerDescription12":"Interprétariat français–espagnol entre l’équipe et les bénéficiaires.",  
-    "volunteerDescription13":"Projet de Digitalisation Interne", 
-    "volunteerDescription14":"Co-développement d’une application interne pour la gestion des douches et de l’historique des bénéficiaires.",  
-    "volunteerDescription15":"Migration d’un système papier vers une solution numérique.",  
-    "volunteerDescription16":"Collaboration sur la structure, la logique applicative et la mise en place du serveur.",  
-    "volunteerDescription17":"Amélioration de l’organisation des données, de la traçabilité et de l’efficacité opérationnelle.",  
-
+    "volunteerDescription1": "Bénévole régulière dans plusieurs programmes communautaires.",
+    "volunteerDescription2": "Membre de l’équipe communication :",
+    "volunteerDescription3": "Création et publication de contenu pour le site web de l’association.",
+    "volunteerDescription4": "Gestion et mise à jour de la page Facebook.",
+    "volunteerDescription5": "Participation au lancement et au développement du compte Instagram.",
+    "volunteerDescription6": "Création de contenus visuels, captation vidéo et aide à l’édition basique de reels.",
+    "volunteerDescription7": "Missions de soutien communautaire :",
+    "volunteerDescription8": "Service du petit-déjeuner et gestion de la logistique quotidienne.",
+    "volunteerDescription9": "Inscription des bénéficiaires pour l’accès aux douches et organisation du flux.",
+    "volunteerDescription10": "Programme d’accompagnement des femmes (Accueil des Femmes) :",
+    "volunteerDescription11": "Soutien aux femmes en situation de vulnérabilité.",
+    "volunteerDescription12": "Interprétariat français–espagnol entre l’équipe et les bénéficiaires.",
     "volunteer2Title": "Événements Sportifs",
-    "volunteer2Description1":"Bénévole comme guide et signaleuse lors de courses, dont 24H Saint Pierre.", 
-    "volunteer2Description2":"Orientation des participants et sécurisation des parcours.",  
-    "volunteer2Description3": "Sélectionnée à nouveau pour les prochaines éditions et candidate à des rôles organisationnels.", 
-
+    "volunteer2Description1": "Bénévole comme guide et signaleuse lors de courses, dont 24H Saint Pierre.",
+    "volunteer2Description2": "Orientation des participants et sécurisation des parcours.",
+    "volunteer2Description3": "Sélectionnée à nouveau pour les prochaines éditions et candidate à des rôles organisationnels.",
     "qualities": "Qualités",
     "quality1": "Gentille",
     "quality2": "Utile",
@@ -99,29 +81,40 @@
     "keystone": "Caissier chez Keystone Resort - Programme Work&Travel aux USA ",
     "month": "Avril",
     "funFact": "Fait amusant, j'ai été la caissière le plus efficace pendant un mois consécutif.",
-    "visit": "Visitez le project",
+    "visit": "Visitez le projet",
     "aboutProject": "À propos du projet",
-    "projectsTitle": "Mes Projects",
+    "projectsTitle": "Projets sélectionnés",
     "projectsDescription": [
         {
             "id": 1,
-            "description": "Blossom Weddings concerne une entreprise fictive d'organisation de mariages. Comme le but est d'avoir toutes les informations au même endroit, le format de la landing page nous a semblé parfait pour l'occasion. Il a deux designs différents pour ordinateur et mobile, il s'adapte également aux tablettes et à tout type d'écrans"
+            "description": "Blossom Weddings est une landing page pour une entreprise fictive d'organisation de mariages, conçue pour réunir toutes les informations au même endroit. J'ai créé des maquettes distinctes pour ordinateur et mobile, et la page s'adapte aussi aux tablettes et aux autres tailles d'écran."
         },
         {
             "id": 2,
-            "description": "Le but de Reservando est d'aider les personnes intolérantes au gluten à trouver davantage d'endroits où elles peuvent manger sans s'inquiéter. Son idée principale est la capacité de vérifier tous les restaurants près de chez vous et de réserver une table lorsque vous êtes pressé."
+            "description": "Reservando est un prototype UX/UI conçu avec Adobe XD pour aider les personnes intolérantes au gluten à trouver des endroits où manger sans souci. Il permet de voir les restaurants à proximité et de réserver une table rapidement."
         },
         {
             "id": 3,
-            "description": "Armydive est un site fictif où vous pouvez trouver tous les produits dérivés, albums, eps, etc. BTS. Un moyen plus simple de trouver tout ce qui concerne BTS, un e-commerce juste pour Army, la fanbase du groupe k-pop. Le site est entièrement réactif et Firebase a été utilisé pour la partie backend du projet."
+            "description": "ArmyDive est un site e-commerce fictif de produits dérivés et d'albums de BTS. Je l'ai développé avec React et SASS, il est entièrement responsive et utilise Firebase pour le backend."
         },
         {
             "id": 4,
-            "description": "Ce projet est une application web de type dashboard full-stack, développée dans le cadre du cours officiel de Next.js. Il comprend un système d’authentification, un espace protégé ainsi que la gestion de factures, illustrant des concepts clés tels que le routing, la gestion des données et le rendu côté serveur. L’objectif était de mettre en pratique et de démontrer des compétences concrètes dans le développement d’applications réelles, notamment l’authentification des utilisateurs, le rendu dynamique des données et la structuration d’interfaces. Ce projet reflète ma capacité à travailler avec des technologies web modernes et à implémenter des fonctionnalités proches d’un environnement de production."
+            "description": "Un tableau de bord full-stack créé avec Next.js, TypeScript et Tailwind CSS en suivant le cours officiel de Next.js. Il comprend l'authentification, un espace protégé et la gestion de factures, et m'a permis de pratiquer le routage, la récupération de données et le rendu côté serveur."
         },
         {
             "id": 5,
-            "description": "Ce projet est un portfolio artistique web conçu pour traduire un design créé sur Canva en une expérience responsive et interactive. Il met l’accent sur des animations personnalisées, entièrement développées from scratch, afin d’améliorer l’utilisabilité et le storytelling visuel. La plateforme organise le travail de l’artiste et intègre un accès direct à sa musique, en combinant performance, design et fonctionnalité."
+            "description": "Un site portfolio responsive pour une artiste, créé à partir d'une maquette Canva. J'ai développé les animations de zéro avec SASS, organisé son travail en sections claires et ajouté un accès direct à sa musique."
         }
-    ]
+    ],
+    "degree": "Diplôme technique en programmation – en cours (moyenne actuelle : 9,7/10)",
+    "code": "Voir le code",
+    "contactTitle": "Contact",
+    "contactEmail": "Envoyez-moi un e-mail",
+    "contactLinkedin": "Retrouvez-moi sur LinkedIn",
+    "contactGithub": "Voir mon code sur GitHub",
+    "contactBehance": "Suivez-moi sur Behance",
+    "contactCv": "Télécharger mon CV",
+    "programming": "Programmation",
+    "pythonLevel": "Python (bases – en apprentissage)",
+    "aiTools": "Assistants IA pour coder (apprentissage et prototypes)"
 }
