@@ -10,7 +10,7 @@ const Project = ({ id, title, tools, img, alt, link, repo, language }) => {
 
     return (
         <div className='project' key={id}>
-            <div className='project__header' data-aos="flip-left">
+            <div className='project__header'>
                 <h2 className='project__title'>{title}</h2>
             </div>
             <div className='project__grid'>
