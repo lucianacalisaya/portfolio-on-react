@@ -138,7 +138,6 @@ const Resume = () => {
                         <h3 className="cv__h3">{getTranslation('workExp', language)}</h3>
                         <h4 className="cv__h4">{getTranslation('workTitle', language)} – <a className="cv__fieldset--link" href="https://www.coderhouse.com/">Coderhouse</a> (ARG)<br/><span className="cv__date">Dec 2020 - Feb 2023</span></h4>
                         <ul className='cv__list  cv__list--bullets'>
-                            <li className='cv__list--exception'></li>
                             <li>{getTranslation('workDescription1', language)}</li>
                             <li>{getTranslation('workDescription2', language)}</li>
                             <li>{getTranslation('workDescription3', language)}</li>

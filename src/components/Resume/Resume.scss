@@ -46,6 +46,6 @@
 
 @media only screen and (max-width: 700px) {
   .width-limit { width: calc(100% - 2rem); }
-  .quick-info { &__box { flex-direction: column; text-align: center; } &__imagebox { width: 88px; flex-basis: 88px; } &__contact { align-items: center; } }
+  .quick-info { &__box { flex-direction: column; } &__imagebox { width: 88px; flex-basis: 88px; } &__contact { align-items: center; } }
   .cv { grid-template-columns: 1fr; gap: 1.5rem; &__skills { order: -1; } }
 }

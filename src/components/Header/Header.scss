@@ -1,18 +1,32 @@
 .header {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  min-height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: .5rem 1rem;
-  background: rgba(16,16,17,.88);
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  backdrop-filter: blur(14px);
-  &__logo {
-    margin: 0;
-    &--link { display: flex; margin-left: 0; }
-    img { width: 42px; height: 42px; border-radius: 10px; }
-  }
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        margin: 0.5rem 0;
+        &--link {
+            margin-left: 16px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        background: #141414;
+        &__logo {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin: 0.5rem 0;
+            z-index: 1;
+           &--link {
+            margin-left: unset;
+            margin-right: 1rem;
+        } 
+        }
+        
+    }
 }

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import {useContext} from 'react';
 import { LanguageContext } from '../../context/LanguageContext'
 import { getTranslation } from '../../services/utils'
-//import { useState, useEffect } from 'react';
 
 
 const Hamburger = () => {
@@ -26,21 +25,7 @@ const Hamburger = () => {
             document.removeEventListener('mousedown', handler);
         };
     }, [isShown])
-    // const [width, setWindowWidth] = useState(0);
 
-    // useEffect(() => {
-    //     updateDimensions();
-    //     window.addEventListener('resize', updateDimensions);
-    //     return () => window.removeEventListener('resize', updateDimensions)
-    // }, []);
-
-    // const updateDimensions = () => {
-    //     const width = window.innerWidth;
-    //     setWindowWidth(width);
-    // };
-
-
-   // {width>699 ? <Navbar/> : <Hamburger/>}
     return (
         <div ref={ref} className='hamburger' >
             <button className='hamburger__button' onClick={() => setIsShown((prev) => !prev)}>
@@ -64,6 +49,7 @@ const Hamburger = () => {
                     <li className='navbar__item'><Link className='navbar__link' onClick={() => setIsShown(false)} to='/'>{getTranslation('home', language)}</Link></li>
                     <li className='navbar__item'><Link className='navbar__link' onClick={() => setIsShown(false)} to='/resume'>{getTranslation('resume', language)}</Link></li>
                     <li className='navbar__item'><Link className='navbar__link' onClick={() => setIsShown(false)} to='/portfolio'>{getTranslation('projects', language)}</Link></li>
+                    <li className='navbar__item'><Link className='navbar__link' onClick={() => setIsShown(false)} to='/contact'>{getTranslation('contact', language)}</Link></li>
                 </ul>
             </nav>
         </div>
