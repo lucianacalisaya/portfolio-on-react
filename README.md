@@ -5,7 +5,7 @@ Personal portfolio of a junior front-end developer, available in English, Spanis
 **Live site:** https://calisayaportfolioreact.netlify.app/
 
 ## Built with
-React, React Router, SASS, Font Awesome, AOS (scroll animations). Deployed on Netlify.
+React, React Router, SASS, Font Awesome. Deployed on Netlify.
 
 ## Features
 - Three languages (EN / ES / FR) with a language switcher
