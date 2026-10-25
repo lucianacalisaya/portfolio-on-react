@@ -23,7 +23,9 @@
     "frontend": "Front-End Development",
     "responsive": "Responsive design & accessibility",
     "frameworks": "Styling & Frameworks",
-    "tools": "Tools & Platforms",
+    "tools": "Tools & Methodologies",
+    "codeReview": "Code Review",
+    "principles": "Agile/Scrum principles",
     "ux-ui": "UX/UI principles",
     "skills": "Skills",
     "languages": "Languages",
@@ -34,6 +36,7 @@
     "background": "background",
     "cambridgeLevel": "level B2",
     "studies": "studies",
+    "physics": "Undergraduate Studies in Physics – 3 years of study",
     "certifications": "certifications",
     "webDev": "Web development",
     "workExp": "work experience",
@@ -96,7 +99,7 @@
         },
         {
             "id": 3,
-            "description": "ArmyDive is a fictional e-commerce site for BTS merchandise and albums. I built it with React and SASS, made it fully responsive, and used Firebase for the backend."
+            "description": "ArmyDive is a fictional e-commerce site for BTS merchandise and albums. I built it with React and SCSS, made it fully responsive, and used Firebase for the backend."
         },
         {
             "id": 4,
@@ -104,7 +107,7 @@
         },
         {
             "id": 5,
-            "description": "A responsive portfolio website for an artist, built by turning a Canva design into code. I created the animations from scratch with SASS, organised her work into clear sections and added direct links to her music."
+            "description": "A responsive portfolio website for an artist, built by turning a Canva design into code. I created the animations from scratch with SCSS, organised her work into clear sections and added direct links to her music."
         },
         {
             "id": 6,

@@ -20,7 +20,7 @@ const Resume = () => {
                     </div>
                     <div className="quick-info__contact">
                         <ul className="quick-info__social-media">
-                            <li className="quick-info__social-media--link quick-info__social-media--name">Luciana Melina Calisaya - {getTranslation('position', language)}</li>
+                            <li className="quick-info__social-media--link quick-info__social-media--name">Luciana Calisaya - {getTranslation('position', language)}</li>
                             <li className="quick-info__social-media--link"><i class="fas fa-search"></i> <span>{getTranslation('lookingFor', language)}</span>: {getTranslation('lookingForPositions', language)}</li>
                             <li className="quick-info__social-media--link"><i className="fas fa-map-marker-alt"></i>     {getTranslation('location', language)}</li>
                             <li className="quick-info__social-media--link"><i class="far fa-clock"></i> 
@@ -41,10 +41,10 @@ const Resume = () => {
                         <div className="cv__fieldset">
                             <h4 className="cv__h4">{getTranslation('frontend', language)}</h4>
                             <ul className="cv__list cv__list--skills">
-                                <li>HTML5, CSS3, SASS</li>
+                                <li>HTML5, CSS3, SCSS</li>
                                 <li>JavaScript (ES6+) <span className="cv__highlight">JQuery</span></li>
                                 <li>TypeScript</li>
-                                <li>React JS, NextJS</li>
+                                <li>React, NextJS</li>
                                 <li>{getTranslation('responsive', language)}</li>
                                 <li>SEO</li>
                             </ul>
@@ -71,20 +71,24 @@ const Resume = () => {
                                 <li>Git, Github</li>
                                 <li>Firebase</li>
                                 <li>Node JS</li>
-                                <li>Adobe XD</li>
-                                <li>Figma</li>
+                                <li>REST APIs</li>
+                                <li>JSON</li>
+                                <li>{getTranslation('codeReview', language)}</li>
+                                <li>{getTranslation('principles', language)}</li>
+                                {/* <li>Adobe XD</li>
+                                <li>Figma</li> */}
                                 <li>{getTranslation('aiTools', language)}</li>
                             </ul>
                         </div>
-                        <br/>
-                        <div className="cv__fieldset">
+                        {/* <br/> */}
+                        {/* <div className="cv__fieldset">
                             <h4 className="cv__h4">UX / UI</h4>
                             <ul className="cv__list cv__list--skills">
                                 <li>User research</li>
                                 <li>User testing</li>
                                 <li>{getTranslation('ux-ui', language)}</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
 
                     <br/>
@@ -104,6 +108,7 @@ const Resume = () => {
                             <h4 className="cv__h4">{getTranslation('studies', language)}</h4>
                             <ul className='cv__list'>
                                 <li>{getTranslation('degree', language)}</li>
+                                <li>{getTranslation('physics', language)}</li>
                                 <li>Colegio Nacional de Ushuaia - Bac Social Science</li>
                                 <li>Cambridge First Certificate <span className="cv__highlight">{getTranslation('cambridgeLevel', language)}</span></li>
                             </ul>
@@ -115,7 +120,7 @@ const Resume = () => {
                                 <li>{getTranslation('webDev', language)}<span className='cv__date'> 2020</span></li>
                                 <li>UX/UI <span className='cv__date'>2020</span></li>
                                 <li>JavaScript <span className='cv__date'>2021</span></li>
-                                <li>React JS <span className='cv__date'>2022</span></li>
+                                <li>React <span className='cv__date'>2022</span></li>
                             </ul>
                         </div>
                     </div>
@@ -175,7 +180,7 @@ const Resume = () => {
                                 <ul className='cv__list--indent'>
                                     <li>{getTranslation('volunteerDescription3', language)}</li>
                                     <li>{getTranslation('volunteerDescription4', language)}</li>
-                                    <li>{getTranslation('volunteerDescription5', language)}</li>    
+                                    {/* <li>{getTranslation('volunteerDescription5', language)}</li>     */}
                                     <li>{getTranslation('volunteerDescription6', language)}</li>
                                 </ul>
                             </li>

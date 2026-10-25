@@ -23,7 +23,9 @@
     "frontend": "Développement Front-End",
     "responsive": "Design responsive et accessibilité",
     "frameworks": "Styles & Frameworks",
-    "tools": "Outils & Plateformes",
+    "tools": "Outils & Méthodologies",
+    "codeReview": "Revue de code",
+    "principles": "Principes Agile/Scrum",
     "ux-ui": "Principes UX/UI",
     "skills": "Compétences",
     "languages": "Langues",
@@ -34,6 +36,7 @@
     "background": "Profil",
     "cambridgeLevel": "niveau B2",
     "studies": "Études",
+    "physics": "Études universitaires en physique – 3 années d’études",
     "certifications": "Certifications",
     "descriptionResume": "Profil",
     "descriptionResume1": "Développeuse Front-End avec une solide expérience en formation web, support aux utilisateurs et communication digitale.",
@@ -96,7 +99,7 @@
         },
         {
             "id": 3,
-            "description": "ArmyDive est un site e-commerce fictif de produits dérivés et d'albums de BTS. Je l'ai développé avec React et SASS, il est entièrement responsive et utilise Firebase pour le backend."
+            "description": "ArmyDive est un site e-commerce fictif de produits dérivés et d'albums de BTS. Je l'ai développé avec React et SCSS, il est entièrement responsive et utilise Firebase pour le backend."
         },
         {
             "id": 4,
@@ -104,7 +107,7 @@
         },
         {
             "id": 5,
-            "description": "Un site portfolio responsive pour une artiste, créé à partir d'une maquette Canva. J'ai développé les animations de zéro avec SASS, organisé son travail en sections claires et ajouté un accès direct à sa musique."
+            "description": "Un site portfolio responsive pour une artiste, créé à partir d'une maquette Canva. J'ai développé les animations de zéro avec SCSS, organisé son travail en sections claires et ajouté un accès direct à sa musique."
         },
         {
             "id": 6,

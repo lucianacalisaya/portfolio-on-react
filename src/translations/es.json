@@ -23,7 +23,9 @@
     "frontend": "Desarrollo Front-end",
     "responsive": "Diseño responsive y accesibilidad",
     "frameworks": "Estilos y Frameworks",
-    "tools": "Herramientas y Plataformas",
+    "tools": "Herramientas y Metodologías",
+    "codeReview": "Revisión de código",
+    "principles": "Principios Agile/Scrum",
     "ux-ui": "Principios UX/UI",
     "skills": "Habilidades",
     "languages": "Idiomas",
@@ -34,6 +36,7 @@
     "background": "Perfil",
     "cambridgeLevel": "nivel B2",
     "studies": "Estudios",
+    "physics": "Estudios universitarios en Física – 3 años cursados",
     "certifications": "certificaciones",
     "webDev": "Desarrollo Web",
     "workExp": "Experiencia laboral",
@@ -96,7 +99,7 @@
         },
         {
             "id": 3,
-            "description": "ArmyDive es un e-commerce ficticio de merchandising y álbumes de BTS. Lo desarrollé con React y SASS, es totalmente responsive y usa Firebase para el backend."
+            "description": "ArmyDive es un e-commerce ficticio de merchandising y álbumes de BTS. Lo desarrollé con React y SCSS, es totalmente responsive y usa Firebase para el backend."
         },
         {
             "id": 4,
@@ -104,7 +107,7 @@
         },
         {
             "id": 5,
-            "description": "Un sitio web responsive para una artista, creado a partir de un diseño en Canva. Desarrollé las animaciones desde cero con SASS, organicé su trabajo en secciones claras e incluí acceso directo a su música."
+            "description": "Un sitio web responsive para una artista, creado a partir de un diseño en Canva. Desarrollé las animaciones desde cero con SCSS, organicé su trabajo en secciones claras e incluí acceso directo a su música."
         },
         {
             "id": 6,

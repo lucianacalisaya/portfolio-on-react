@@ -14,6 +14,7 @@ const LanguageSwitcher = () => {
             <button className='switcher__button switcher__button--eng' value='en'></button>
             <button className='switcher__button switcher__button--spa' value='es'></button>
             <button className='switcher__button switcher__button--fr' value='fr'></button>
+            {/* <button className='switcher__button switcher__button--sk' value='sk'></button> */}
         </div>
     )
 
