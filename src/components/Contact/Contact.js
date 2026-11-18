@@ -15,7 +15,7 @@ const Contact = () => {
                 <div className="contact__box">
                     <div className="contact__social-box">
                         <h2 className="contact__social-media">{getTranslation('contactEmail', language)}</h2>
-                        <a href="mailto:lmc.calisaya@gmail.com" aria-label="Email"><i className="far fa-envelope"></i></a>
+                        <a href="mailto:lmc.calisaya@gmail.com" aria-label="Email"><i className="far fa-envelope"></i> lmc.calisaya@gmail.com</a>
                     </div>
                     <div className="contact__social-box">
                         <h2 className="contact__social-media">{getTranslation('contactLinkedin', language)}</h2>

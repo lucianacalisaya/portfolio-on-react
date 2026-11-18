@@ -1,15 +1,29 @@
 [
     {
+        "id": 7,
+        "title": "Portfolio (this site)",
+        "tools": [
+            "react",
+            "sass"
+        ],
+        "img": "data/my-portfolio.gif",
+        "link": "github.com/lucianacalisaya/portfolio-on-react",
+        "year": "2023",
+        "alt": "Luciana's Portfolio"
+    },
+    {
         "id": 6,
-        "title": "Python Logical Proposition Analyzer and Classifier",
+        "title": "ArmyDive",
         "tools": [
             "github",
-            "python"
+            "html5",
+            "sass",
+            "react"
         ],
-        "img": "data/Analizador-de-tablas-de-verdad-en-Python.png",
-        "link": "https://github.com/lucianacalisaya/python-logical-proposition-analyzer-and-classifier",
-        "year": "2026",
-        "alt": "Python Logical Proposition Analyzer and Classifier"
+        "img": "data/armydive-process.gif",
+        "link": "https://armydive.netlify.app/",
+        "year": "2022",
+        "alt": "ArmyDive shopping process simulation"
     },
     {
         "id": 5,
@@ -34,27 +48,14 @@
             "tailwind-css"
         ],
         "img": "data/acme-nextjs.gif",
-        "link": "https://nextjs-nohsp2x9r-lucianas-projects-f8fd3d49.vercel.app/",
+        "link": "https://nextjs-lucianas-projects-f8fd3d49.vercel.app/dashboard",
         "year": "2024",
         "alt": "NextJs project tour"
     },
+    
     {
         "id": 3,
-        "title": "ArmyDive",
-        "tools": [
-            "github",
-            "html5",
-            "sass",
-            "react"
-        ],
-        "img": "data/armydive-process.gif",
-        "link": "https://armydive.netlify.app/",
-        "year": "2022",
-        "alt": "ArmyDive shopping process simulation"
-    },
-    {
-        "id": 1,
-        "title": "Blossom Weddings",
+        "title": "Blossom Weedings",
         "tools": [
             "github",
             "html5",
@@ -77,5 +78,18 @@
         "link": "https://xd.adobe.com/view/da64dee6-eb2d-4359-9527-b73715f4694a-8f37/?fullscreen",
         "year": "2020",
         "alt": "Reservando prototype"
+    },
+    {
+        "id": 1,
+        "title": "Python Logical Proposition Analyzer and Classifier",
+        "tools": [
+            "github",
+            "python"
+        ],
+        "img": "data/Analizador-de-tablas-de-verdad-en-Python.png",
+        "link": "https://github.com/lucianacalisaya/python-logical-proposition-analyzer-and-classifier",
+        "year": "2026",
+        "alt": "Python Logical Proposition Analyzer and Classifier"
     }
+    
 ]

@@ -5,18 +5,18 @@
     "contact": "Contact",
     "hello": "Hello, I am",
     "profession": "Front-End Developer",
-    "text1": "I build responsive, user-friendly websites with HTML, CSS, JavaScript, React and Next.js. I have been drawn to technology since I was young, and I enjoy turning designs and ideas into clear, working interfaces.",
-    "text2": "I am organised, reliable and transparent in the way I work, and I learn best in a team. Before moving into development full time, I spent over two years as a web development tutor, reviewing students' code and helping them ship their first responsive websites.",
-    "text3": "I am currently studying for a Technical Degree in Programming and I am looking for front-end opportunities, with a focus on Sweden. I am open to full-time roles, internships, remote work and freelance projects.",
+    "text1": "I'm a front-end developer working with React, JavaScript and SCSS. I like taking a design and turning it into a page that works well on every screen size.",
+    "text2": "For two years I was a web development tutor at Coderhouse, reviewing students' code and helping them debug their first websites. Since then I've built this site, in three languages with my own translation system, and a portfolio site for an artist. I've also worked through the official Next.js course in TypeScript, and I'm studying for a programming degree online at UTN.",
+    "text3": "I'm moving to Stockholm long-term, and I'm looking for a junior front-end role there from spring 2027.",
     "button": "Let's talk!",
     "check": "Check out my",
     "resumeTitle": "My Resume",
     "position": "Front-End Developer",
-    "location": "Argentine residency – flexible to work in any time zone",
+    "location": "Relocating to Stockholm, Sweden",
     "availability": "Availability",
-    "availabilityTime": "Full-time or part-time",
+    "availabilityTime": "Full-time, from spring 2027",
     "lookingFor": "Looking for",
-    "lookingForPositions": "front-end roles in Sweden / remote positions / internships / freelance",
+    "lookingForPositions": "Junior front-end roles in Stockholm",
     "downloadLink": "data/2026-calisaya-cv-eng.pdf",
     "download": "Download PDF",
     "tech": "Technical skills",
@@ -30,13 +30,14 @@
     "skills": "Skills",
     "languages": "Languages",
     "spanish": "Spanish: Native",
-    "english": "English: Advanced (C1)",
+    "english": "English: fluent, C1 (EF SET certificate, 2024)",
     "portuguese": "Portuguese: Basic (A2)",
-    "french": "French: Intermediate (B1 - currently improving)",
+    "french": "French: intermediate, B1",
+    "swedish": "Swedish: beginner (learning)",
     "background": "background",
     "cambridgeLevel": "level B2",
     "studies": "studies",
-    "physics": "Undergraduate Studies in Physics – 3 years of study",
+    "physics": "Physics (Licenciatura en Física) – 3 of 5 years completed",
     "certifications": "certifications",
     "webDev": "Web development",
     "workExp": "work experience",
@@ -91,27 +92,31 @@
     "projectsDescription": [
         {
             "id": 1,
-            "description": "Blossom Weddings is a landing page for a fictional wedding planning company, designed to keep all the information in one place. I built separate desktop and mobile layouts, and the page also adapts to tablets and other screen sizes."
+            "description": "A Python program for my UTN maths course. It builds the truth table for a logical proposition, either a classic example or one you put together, and says whether it's a tautology, a contradiction or a contingency."
         },
         {
             "id": 2,
-            "description": "Reservando is a UX/UI prototype designed in Adobe XD to help people with gluten intolerance find places where they can eat without worrying. Users can see nearby restaurants and book a table quickly when they are in a hurry."
+            "description": "A UX case study and Adobe XD prototype for people with celiac disease, to find restaurants where they can eat safely. I interviewed 5 people to understand the problem before designing it."
         },
         {
             "id": 3,
-            "description": "ArmyDive is a fictional e-commerce site for BTS merchandise and albums. I built it with React and SCSS, made it fully responsive, and used Firebase for the backend."
+            "description": "A landing page for a fictional wedding planner, from my first web development course. I made the design, the text and the logo myself, and built it with HTML, SCSS and Bootstrap."
         },
         {
             "id": 4,
-            "description": "A full-stack dashboard built with Next.js, TypeScript and Tailwind CSS while following the official Next.js learning course. It includes authentication, a protected dashboard and invoice management, and it helped me practise routing, data fetching and server-side rendering."
+            "description": "An invoice and customer dashboard that I built by following the official Next.js course. It has login, protected pages and server-side data fetching, and it's where I practised TypeScript, Tailwind CSS and PostgreSQL."
         },
         {
             "id": 5,
-            "description": "A responsive portfolio website for an artist, built by turning a Canva design into code. I created the animations from scratch with SCSS, organised her work into clear sections and added direct links to her music."
+            "description": "A portfolio site for Aini, an artist from Argentina, in English and Korean. She uses it to present her work. I coded it from scratch from her Canva design and made the animations myself."
         },
         {
             "id": 6,
-            "description": "A Python-based compound proposition analyzer and truth table generator. The application translates mathematical logic into executable code using fundamental structures like conditionals, iterative loops, lists, and documented functions with docstrings. It evaluates binary combinations (1/0) to determine truth values and was developed following a critical multi-AI iterative process for problem-solving and code refinement."
+            "description": "A demo online store for BTS merchandise, built as my final project for the Coderhouse React course. The idea and design are my own. It has a product catalogue, search, product pages, a cart and checkout, with the product data in Firebase Firestore."
+        },
+        {
+            "id": 7,
+            "description": "This site. I built it from scratch in React without a UI library, with a responsive layout, a custom mobile menu and my own translation system (React Context and JSON files) for English, Spanish and French."
         }
     ],
     "degree": "Technical Degree in Programming – in progress (current average: 9.7/10)",
