@@ -1,24 +1,29 @@
-# Luciana Calisaya – Portfolio
-
-Personal portfolio of a junior front-end developer, available in English, Spanish and French.
-
-**Live site:** https://calisayaportfolioreact.netlify.app/
-
+# Portfolio
+ 
+My portfolio site, in English, Spanish and French.
+ 
+**Live:** https://calisayaportfolioreact.netlify.app/
+ 
+## What it does
+ 
+- Home, resume, projects and contact pages
+- Language switcher for English, Spanish and French
+- Responsive layout with a custom mobile menu
+- Project cards loaded from `src/data/projects.json`
+ 
 ## Built with
-React, React Router, SASS, Font Awesome. Deployed on Netlify.
-
-## Features
-- Three languages (EN / ES / FR) with a language switcher
-- Responsive layout (desktop, tablet, mobile)
-- Projects page driven by `src/data/projects.json` and translated descriptions
-- Resume page with downloadable CV in each language
-
-## Run locally
+ 
+React, React Router, JavaScript, SCSS. Deployed on Netlify.
+ 
+## My part
+ 
+All of it. I built it from scratch without a UI component library. The translation system is my own: a React Context holds the current language, and the texts live in one JSON file per language.
+ 
+## Run it locally
+ 
 ```bash
+git clone https://github.com/lucianacalisaya/portfolio-on-react.git
+cd portfolio-on-react
 npm install
 npm start
 ```
-Open http://localhost:3000.
-
-## Contact
-[LinkedIn](https://www.linkedin.com/in/luciana-calisaya/) · [GitHub](https://github.com/lucianacalisaya)
