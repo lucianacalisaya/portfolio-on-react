@@ -3,11 +3,12 @@
         "id": 7,
         "title": "Portfolio (this site)",
         "tools": [
+            "github",
             "react",
             "sass"
         ],
         "img": "data/my-portfolio.gif",
-        "link": "github.com/lucianacalisaya/portfolio-on-react",
+        "github": "https://github.com/lucianacalisaya/portfolio-on-react",
         "year": "2023",
         "alt": "Luciana's Portfolio"
     },
@@ -22,6 +23,7 @@
         ],
         "img": "data/armydive-process.gif",
         "link": "https://armydive.netlify.app/",
+        "github": "https://github.com/lucianacalisaya/armydive",
         "year": "2022",
         "alt": "ArmyDive shopping process simulation"
     },
@@ -35,6 +37,7 @@
         ],
         "img": "data/aini-portfolio.gif",
         "link": "https://lucianacalisaya.github.io/aini-portfolio/",
+        "github": "https://github.com/lucianacalisaya/aini-portfolio",
         "year": "2025",
         "alt": "Aini's portfolio tour"
     },
@@ -49,6 +52,7 @@
         ],
         "img": "data/acme-nextjs.gif",
         "link": "https://nextjs-lucianas-projects-f8fd3d49.vercel.app/dashboard",
+        "github": "https://github.com/lucianacalisaya/nextjs",
         "year": "2024",
         "alt": "NextJs project tour"
     },
@@ -64,6 +68,7 @@
         ],
         "img": "data/blossom-weddings.gif",
         "link": "https://blossomweddings.netlify.app/",
+        "github": "https://github.com/lucianacalisaya/blossomweddings",
         "year": "2020",
         "alt": "Blossom Weddings landing page"
     },
@@ -87,9 +92,21 @@
             "python"
         ],
         "img": "data/Analizador-de-tablas-de-verdad-en-Python.png",
-        "link": "https://github.com/lucianacalisaya/python-logical-proposition-analyzer-and-classifier",
+        "github": "https://github.com/lucianacalisaya/python-logical-proposition-analyzer-and-classifier",
         "year": "2026",
         "alt": "Python Logical Proposition Analyzer and Classifier"
+    },
+    {
+       "id": 8,
+        "title": "Inventory Management System",
+        "tools": [
+            "github",
+            "python"
+        ],
+        "img": "data/inventory-management-system.png",
+        "github": "https://github.com/lucianacalisaya/inventory-management-system-utn",
+        "year": "2026",
+        "alt": "Inventory Management System" 
     }
     
 ]

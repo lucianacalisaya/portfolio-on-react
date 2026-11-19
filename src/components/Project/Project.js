@@ -3,7 +3,7 @@ import { getTranslation } from '../../services/utils';
 import React from 'react';
 
 
-const Project = ({ id, title, tools, img, alt, link, repo, language }) => {
+const Project = ({ id, title, tools, img, alt, link, github, language }) => {
 
     const descriptionText = getTranslation('projectsDescription', language).find(projectsDescription => projectsDescription.id === id)?.description || '';
 
@@ -28,11 +28,13 @@ const Project = ({ id, title, tools, img, alt, link, repo, language }) => {
                         <li key={tool}><i className={`fab fa-${tool}`} aria-label={tool} role='img' /></li>
                     ))}
                 </ul>
-                <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>
-                    {getTranslation('visit', language)}
-                </a>
-                {repo && (
-                    <a href={repo} target='_blank' rel='noreferrer' className='project__description-link'>
+                {link && (
+                    <a href={link} target='_blank' rel='noreferrer' className='project__description-link'>
+                        {getTranslation('visit', language)}
+                    </a>
+                )}
+                {github && (
+                    <a href={github} target='_blank' rel='noreferrer' className='project__description-link'>
                         {getTranslation('code', language)}
                     </a>
                 )}

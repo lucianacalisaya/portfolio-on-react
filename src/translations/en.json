@@ -117,6 +117,10 @@
         {
             "id": 7,
             "description": "This site. I built it from scratch in React without a UI library, with a responsive layout, a custom mobile menu and my own translation system (React Context and JSON files) for English, Spanish and French."
+        },
+        {
+            "id": 8,
+            "description": "A Python inventory management system built for my UTN programming course. It handles adding, viewing, updating and removing items in stock with structured data and validation."
         }
     ],
     "degree": "Technical Degree in Programming – in progress (current average: 9.7/10)",

@@ -5,18 +5,18 @@
     "contact": "Contacto",
     "hello": "Hola, soy",
     "profession": "Desarrolladora Front-End",
-    "text1": "Creo sitios web responsive y fáciles de usar con HTML, CSS, JavaScript, React y Next.js. Me apasiona la tecnología desde chica y disfruto convertir diseños e ideas en interfaces claras y funcionales.",
-    "text2": "Soy organizada, responsable y transparente en mi forma de trabajar, y aprendo mejor en equipo. Antes de dedicarme al desarrollo, trabajé más de dos años como tutora de desarrollo web, revisando el código de estudiantes y acompañándolos en su primer sitio responsive.",
-    "text3": "Actualmente estudio la Tecnicatura en Programación y busco oportunidades como desarrolladora front-end, con foco en Suecia. Estoy abierta a puestos de tiempo completo, pasantías, trabajo remoto y proyectos freelance.",
+    "text1": "Soy desarrolladora front-end y trabajo con React, JavaScript y SCSS. Me gusta transformar diseños en páginas que funcionen bien en cualquier tamaño de pantalla.",
+    "text2": "Durante dos años trabajé como tutora de desarrollo web en Coderhouse, revisando el código de estudiantes y ayudándolos a resolver errores en sus primeros sitios web. Desde entonces, desarrollé este sitio en tres idiomas con mi propio sistema de traducción y el portfolio de una artista. También completé el curso oficial de Next.js con TypeScript y actualmente estudio una Tecnicatura en Programación a distancia en la UTN.",
+    "text3": "Tengo previsto mudarme a Estocolmo a largo plazo y estoy buscando oportunidades como desarrolladora front-end junior allí a partir de la primavera de 2027.",
     "button": "¡Hablemos!",
-    "check": "Echa un vistazo a mis",
-    "resumeTitle": "Mi Curriculum",
+    "check": "Conoce mis",
+    "resumeTitle": "Mi CV",
     "position": "Desarrolladora Front-End",
-    "location": "Residencia argentina – disponible para trabajar en cualquier zona horaria",
+    "location": "Próxima mudanza a Estocolmo, Suecia",
     "availability": "Disponibilidad",
-    "availabilityTime": "Tiempo completo o tiempo parcial",
+    "availabilityTime": "Tiempo completo, a partir de la primavera de 2027",
     "lookingFor": "Puesto deseado",
-    "lookingForPositions": "Puestos front-end en Suecia / puestos remotos / pasantías / freelance",
+    "lookingForPositions": "Puestos junior de desarrollo front-end en Estocolmo",
     "downloadLink": "data/2026-calisaya-cv-spa.pdf",
     "download": "Descargar PDF",
     "tech": "Habilidades técnicas",
@@ -30,13 +30,14 @@
     "skills": "Habilidades",
     "languages": "Idiomas",
     "spanish": "Español: Nativo",
-    "english": "Inglés: Avanzado (C1)",
+    "english": "Inglés: Fluído, C1 (certificado EF SET, 2024)",
     "portuguese": "Portugués: Básico (A2)",
-    "french": "Francés: Intermedio (B1 - actualmente aprendiendo)",
-    "background": "Perfil",
+    "french": "Francés: Intermedio, B1",
+    "swedish": "Sueco: principiante (en aprendizaje)",
+    "background": "Formación",
     "cambridgeLevel": "nivel B2",
     "studies": "Estudios",
-    "physics": "Estudios universitarios en Física – 3 años cursados",
+    "physics": "Estudios universitarios en Física – 3 de 5 años cursados",
     "certifications": "certificaciones",
     "webDev": "Desarrollo Web",
     "workExp": "Experiencia laboral",
@@ -48,7 +49,7 @@
     "workDescription5": "Asistí a los estudiantes en el desarrollo y presentación de un sitio web totalmente responsive como proyecto final en un plazo aproximado de 2 meses y medio.",
     "workDescription6": "Preparé ocasionalmente material de clase y explicaciones para clarificar conceptos complejos.",
     "workDescription7": "Brindé apoyo motivacional y emocional durante el proceso de aprendizaje.",
-    "work2Title": "Cajera/Servicio al cliente",
+    "work2Title": "Cajera / Servicio al cliente",
     "work2TitleTime": "Presente",
     "work2Description1": "Gestioné operaciones de caja, reembolsos y reposición de productos.",
     "work2Description2": "Actué como punto principal de contacto para la resolución de problemas en el área de cajas.",
@@ -91,28 +92,36 @@
     "projectsDescription": [
         {
             "id": 1,
-            "description": "Blossom Weddings es una landing page para una empresa ficticia de organización de bodas, pensada para reunir toda la información en un solo lugar. Creé diseños separados para escritorio y móvil, y la página también se adapta a tablets y otros tamaños de pantalla."
+            "description": "Un programa en Python desarrollado para una materia de matemática de la UTN. Genera la tabla de verdad de una proposición lógica, ya sea un ejemplo clásico o una que el usuario construya, y determina si se trata de una tautología, una contradicción o una contingencia."
         },
         {
             "id": 2,
-            "description": "Reservando es un prototipo UX/UI diseñado en Adobe XD para ayudar a las personas con intolerancia al gluten a encontrar lugares donde comer sin preocuparse. Permite ver los restaurantes cercanos y reservar una mesa rápidamente."
+            "description": "Un caso de estudio UX y un prototipo en Adobe XD pensado para personas con celiaquía, que les permite encontrar restaurantes donde puedan comer de forma segura. Entrevisté a cinco personas para comprender el problema antes de diseñar la solución."
         },
         {
             "id": 3,
-            "description": "ArmyDive es un e-commerce ficticio de merchandising y álbumes de BTS. Lo desarrollé con React y SCSS, es totalmente responsive y usa Firebase para el backend."
+            "description": "Una landing page para una organizadora de bodas ficticia, creada como parte de mi primer curso de desarrollo web. Diseñé la página, escribí los textos y creé el logo, utilizando HTML, SCSS y Bootstrap."
         },
         {
             "id": 4,
-            "description": "Un dashboard full-stack creado con Next.js, TypeScript y Tailwind CSS siguiendo el curso oficial de Next.js. Incluye autenticación, un panel protegido y gestión de facturas, y me permitió practicar enrutamiento, obtención de datos y renderizado del lado del servidor."
+            "description": "Un dashboard de facturas y clientes que desarrollé siguiendo el curso oficial de Next.js. Incluye inicio de sesión, páginas protegidas y obtención de datos del lado del servidor. Me permitió practicar TypeScript, Tailwind CSS y PostgreSQL."
         },
         {
             "id": 5,
-            "description": "Un sitio web responsive para una artista, creado a partir de un diseño en Canva. Desarrollé las animaciones desde cero con SCSS, organicé su trabajo en secciones claras e incluí acceso directo a su música."
+            "description": "Un sitio web de portfolio para Aini, una artista argentina, disponible en inglés y coreano. Lo desarrollé desde cero a partir de su diseño en Canva y creé las animaciones por mi cuenta para presentar su trabajo."
         },
         {
             "id": 6,
-            "description": "Un analizador de proposiciones compuestas y generador de tablas de verdad en Python. La aplicación traduce la lógica matemática a código ejecutable utilizando estructuras fundamentales como condicionales, bucles iterativos, listas y funciones documentadas con docstrings. Evalúa combinaciones binarias (1/0) para determinar valores de verdad y fue desarrollado siguiendo un proceso iterativo crítico con múltiples IAs para la resolución de problemas y la refinación del código."
-            }
+            "description": "Una tienda online de demostración de merchandising de BTS, desarrollada como proyecto final del curso de React de Coderhouse. La idea y el diseño son propios. Incluye catálogo de productos, búsqueda, páginas individuales, carrito y proceso de compra, con los datos de los productos almacenados en Firebase Firestore."
+        },
+        {
+            "id": 7,
+            "description": "Este mismo sitio. Lo desarrollé desde cero con React y sin utilizar una biblioteca de componentes de interfaz. Incluye un diseño responsive, un menú móvil personalizado y mi propio sistema de traducción mediante React Context y archivos JSON para inglés, español y francés."
+        },
+        {
+            "id": 8,
+            "description": "Un sistema de gestión de inventario en Python desarrollado para una materia de programación de la UTN. Permite agregar, visualizar, actualizar y eliminar productos del inventario mediante datos estructurados y validaciones."
+        }
     ],
     "degree": "Tecnicatura en Programación – en curso (promedio actual: 9,7/10)",
     "code": "Ver el código",
